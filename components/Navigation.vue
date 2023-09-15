@@ -5,8 +5,9 @@
                     <path d="M6 8H18M6 12H18M6 16H18" stroke="#41BFC9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </div>
-            <img src="/images/footlogo.png" width="200" alt="">
-
+            <NuxtLink to="/">
+                <img src="/images/footlogo.png" width="200" alt="">
+            </NuxtLink>
         </header>
 
         <nav role="main-navigation" class="fixed top-0 left-0 z-50 w-full h-screen bg-[#060210] px-10 origin-top scale-y-0">
