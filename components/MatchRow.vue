@@ -8,7 +8,7 @@
                 {{ props.match.field }}
             </div>
         </div>
-        <div class="flex flex-col text-2xl">
+        <div class="flex flex-col text-2xl lg:text-3xl">
             <div class="flex items-center gap-2">
                 <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/' + props.match.homeFlag" v-if="props.match.homeFlag" alt="">
                 {{ props.match.homeTeam }}
@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="flex-grow"></div>
-        <div class="flex flex-col text-2xl p-1 bg-primary rounded-sm items-center" v-if="props.match.status == 1">
+        <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center" v-if="props.match.status == 1">
             <div>
                 {{ props.match.homeScore }}
             </div>

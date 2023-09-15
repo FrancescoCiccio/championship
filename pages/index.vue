@@ -4,7 +4,7 @@
 
 
     <section class="h-[40vh] rounded-b-2xl border-b-2 border-solid border-white/10 text-white overflow-hidden mask flex items-end p-4">
-        <div class="flex flex-col">
+        <div class="flex flex-col container mx-auto">
             <h3>
                 Torneo
             </h3>
@@ -17,7 +17,7 @@
     <RowScroll />
     
 
-    <div class="my-4 flex px-4">
+    <div class="my-4 flex px-4 lg:px-0 container mx-auto">
         <HeadlessMenu as="div" class="relative">
             <div>
                 <HeadlessMenuButton
@@ -58,7 +58,7 @@
         </HeadlessMenu> 
     </div>
 
-    <div class="my-4 px-4">
+    <div class="my-4 px-4 container mx-auto lg:px-0 lg:grid lg:grid-cols-3 lg:gap-4">
 
         <CardGame v-for="(day, index) in currentPlayday.days" :key="'day-' + index" :day="day"></CardGame>
 

@@ -1,5 +1,5 @@
 <template>
-    <div class="cardgame my-2">
+    <div class="cardgame my-2 lg:my-8 lg:col-span-1">
         <div class="p-4 bg-secondary text-white rounded-tr-xl max-w-[80%]">
             {{ Object.keys(props.day)[0] }}
         </div>

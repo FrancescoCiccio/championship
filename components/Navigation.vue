@@ -1,10 +1,12 @@
 <template>
-    <header class="px-4 w-full fixed flex top-0 left-0 py-4 z-20">
+    <header class="px-4 w-full fixed flex top-0 left-0 py-4 z-20 justify-between">
             <div class="btn bg-primary" @click="toggleMenu">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6 8H18M6 12H18M6 16H18" stroke="#41BFC9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </div>
+            <img src="/images/footlogo.png" width="200" alt="">
+
         </header>
 
         <nav role="main-navigation" class="fixed top-0 left-0 z-50 w-full h-screen bg-[#060210] px-10 origin-top scale-y-0">
