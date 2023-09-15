@@ -1,0 +1,20 @@
+{
+    "Messico": {
+        "name": "Messico",
+        "flag": "mx.webp",
+        "players": [
+            {
+                "name": "Angelo",
+                "nickname": "Difry",
+                "position": "SX",
+                "avatar": "/images/players/tapia.png"
+            },
+            {
+                "name": "Simone",
+                "nickname": "Gismy",
+                "position": "DX",
+                "avatar": "/images/players/coello.png"
+            }
+        ]
+    }
+}

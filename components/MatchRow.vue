@@ -10,11 +10,11 @@
         </div>
         <div class="flex flex-col text-2xl">
             <div class="flex items-center gap-2">
-                <img class="w-4 h-4 rounded-full" :src="'/images/flags/' + props.match.homeFlag" v-if="props.match.homeFlag" alt="">
+                <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/' + props.match.homeFlag" v-if="props.match.homeFlag" alt="">
                 {{ props.match.homeTeam }}
             </div>
             <div class="flex items-center gap-2">
-                <img class="w-4 h-4 rounded-full" :src="'/images/flags/' + props.match.awayFlag" v-if="props.match.awayFlag" alt="">
+                <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/' + props.match.awayFlag" v-if="props.match.awayFlag" alt="">
 
                 {{ props.match.awayTeam }}
             </div>
