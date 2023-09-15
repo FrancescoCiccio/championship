@@ -10,7 +10,9 @@
                         {
                             "id": 0,
                             "homeTeam": "Albania",
+                            "homeFlag": "al.webp",
                             "awayTeam": "Costa Rica",
+                            "awayFlag": "cr.webp",
                             "homeScore": 0,
                             "awayScore": 0,
                             "live": false,
@@ -20,6 +22,8 @@
                         },
                         {
                             "id": 1,
+                            "homeFlag": "it.webp",
+                            "awayFlag": "mx.webp",
                             "homeTeam": "Italia",
                             "awayTeam": "Messico",
                             "homeScore": 1,
@@ -31,6 +35,8 @@
                         },
                         {
                             "id": 2,
+                            "homeFlag": "gl.webp",
+                            "awayFlag": "cg.webp",
                             "homeTeam": "Groenlandia",
                             "awayTeam": "Congo",
                             "homeScore": 2,
