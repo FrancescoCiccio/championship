@@ -12,63 +12,51 @@
 
     <RowScroll />
     
-    <div class="px-4 flex">
-        <div class="btn flex gap-4">
-            <h3>
-                Playday1
-            </h3>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.41 8.59L12 13.17L16.59 8.59L18 10L12 16L6 10L7.41 8.59Z" fill="#41BFC9"/>
-            </svg>
-        </div>
+
+    <div class="my-4 flex px-4">
+        <HeadlessMenu as="div" class="relative">
+            <div>
+                <HeadlessMenuButton
+                  class="btn flex gap-4"
+                >
+                    {{ currentPlayday.name }}
+                    
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.41 8.59L12 13.17L16.59 8.59L18 10L12 16L6 10L7.41 8.59Z" fill="#41BFC9"/>
+                    </svg>
+                </HeadlessMenuButton>
+            </div>
+
+            <transition
+                enter-active-class="transition duration-100 ease-out"
+                enter-from-class="transform scale-95 opacity-0"
+                enter-to-class="transform scale-100 opacity-100"
+                leave-active-class="transition duration-75 ease-in"
+                leave-from-class="transform scale-100 opacity-100"
+                leave-to-class="transform scale-95 opacity-0"
+            >
+                <HeadlessMenuItems
+                    class="absolute left-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-secondary ring-opacity-5 focus:outline-none z-50 max-h-[200px] overflow-y-scroll"
+                >
+                    <HeadlessMenuItem v-for="playday in playdays" :key="playday.name">
+                        <button
+                            :class="[
+                           'text-gray-900',
+                            'group flex w-full items-center rounded-md px-2 py-2 text-sm',
+                            ]"
+                            @click="changePlayday(playday)"
+                        >
+                            {{ playday.name }}
+                        </button>
+                    </HeadlessMenuItem>
+                </HeadlessMenuItems>
+            </transition>
+        </HeadlessMenu> 
     </div>
 
     <div class="my-4 px-4">
 
-        <div class="cardgame">
-            <div class="p-4 bg-secondary text-white rounded-tr-xl max-w-[60%]">
-                Venerdì 9 Novembre
-            </div>
-            <div class="p-2 border-2 border-secondary rounded-xl rounded-tl-none flex flex-col gap-2">
-                <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                    <div class="flex flex-col">
-                        <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                            20:00
-                        </div>
-                        <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                            paquito
-                        </div>
-                    </div>
-                    <div class="flex flex-col text-2xl">
-                        <div>
-                            Albania
-                        </div>
-                        <div>
-                            Messico
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                    <div class="flex flex-col">
-                        <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                            20:00
-                        </div>
-                        <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                            lebron
-                        </div>
-                    </div>
-                    <div class="flex flex-col text-2xl">
-                        <div>
-                            Albania
-                        </div>
-                        <div>
-                            Messico
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <CardGame v-for="(day, index) in currentPlayday.days" :key="'day-' + index" :day="day"></CardGame>
 
     </div>
 
@@ -78,9 +66,18 @@
 
 import { onMounted, onUnmounted, ref } from 'vue';
 import { gsap } from "gsap";
+import { playdays} from "@/public/json/playday.json";
+
 
 const main = ref();
 let ctx;
+
+const changePlayday = (playday) => {
+    currentPlayday.value = playday
+}
+
+
+var currentPlayday = ref(playdays[0]);
 
 onMounted(() => {
   ctx = gsap.context((self) => {

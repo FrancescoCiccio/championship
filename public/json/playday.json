@@ -1,0 +1,70 @@
+{
+    "playdays": [
+        {
+            "name": "Playday 1",
+            "from": "11-09-2023",
+            "to": "17-09-2023",
+            "days": [
+                {
+                    "Venerdì 15 Settembre": [
+                        {
+                            "id": 0,
+                            "homeTeam": "Albania",
+                            "awayTeam": "Costa Rica",
+                            "homeScore": 0,
+                            "awayScore": 0,
+                            "live": false,
+                            "time": "20.00",
+                            "field": "paquito",
+                            "status": 0
+                        },
+                        {
+                            "id": 1,
+                            "homeTeam": "Italia",
+                            "awayTeam": "Messico",
+                            "homeScore": 1,
+                            "awayScore": 2,
+                            "live": false,
+                            "time": "21.30",
+                            "field": "lebron",
+                            "status": 1
+                        },
+                        {
+                            "id": 2,
+                            "homeTeam": "Groenlandia",
+                            "awayTeam": "Congo",
+                            "homeScore": 2,
+                            "awayScore": 1,
+                            "live": false,
+                            "time": "21.30",
+                            "field": "galan",
+                            "status": 1
+                        }
+                    ]
+                },
+                {
+                    "Sabato 16 Settembre": []
+                },
+                {
+                    "Domenica 17 Settembre": []
+                }
+            ]
+        },
+        {
+            "name": "Playday 2",
+            "from": "11-09-2023",
+            "to": "17-09-2023",
+            "days": [
+                {
+                    "Venerdì 22 Settembre": []
+                },
+                {
+                    "Sabato 23 Settembre": []
+                },
+                {
+                    "Domenica 24 Settembre": []
+                }
+            ]
+        }
+    ]
+}
