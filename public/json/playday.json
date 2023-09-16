@@ -4,7 +4,7 @@
             "name": "Playday 1",
             "from": "11-09-2023",
             "to": "17-09-2023",
-            "days": [
+            "daysA": [
                 {
                     "Venerdì 15 Settembre": [
                         {
@@ -54,21 +54,163 @@
                 {
                     "Domenica 17 Settembre": []
                 }
+            ],
+            "daysB": [
+                {
+                    "Venerdì 15 Settembre": [
+                        {
+                            "id": 0,
+                            "homeTeam": "Albania B",
+                            "homeFlag": "al.webp",
+                            "awayTeam": "Costa Rica B",
+                            "awayFlag": "cr.webp",
+                            "homeScore": 0,
+                            "awayScore": 0,
+                            "live": false,
+                            "time": "20.00",
+                            "field": "paquito",
+                            "status": 0
+                        },
+                        {
+                            "id": 1,
+                            "homeFlag": "it.webp",
+                            "awayFlag": "mx.webp",
+                            "homeTeam": "Italia B",
+                            "awayTeam": "Messico B",
+                            "homeScore": 1,
+                            "awayScore": 2,
+                            "live": false,
+                            "time": "21.30",
+                            "field": "lebron",
+                            "status": 1
+                        },
+                        {
+                            "id": 2,
+                            "homeFlag": "gl.webp",
+                            "awayFlag": "cg.webp",
+                            "homeTeam": "Groenlandia B",
+                            "awayTeam": "Congo B",
+                            "homeScore": 2,
+                            "awayScore": 1,
+                            "live": false,
+                            "time": "21.30",
+                            "field": "galan",
+                            "status": 1
+                        }
+                    ]
+                },
+                {
+                    "Sabato 16 Settembre": []
+                },
+                {
+                    "Domenica 17 Settembre": []
+                }
             ]
         },
         {
             "name": "Playday 2",
             "from": "11-09-2023",
             "to": "17-09-2023",
-            "days": [
+            "daysA": [
                 {
-                    "Venerdì 22 Settembre": []
+                    "Venerdì 15 Settembre": [
+                        {
+                            "id": 0,
+                            "homeTeam": "Albania",
+                            "homeFlag": "al.webp",
+                            "awayTeam": "Costa Rica",
+                            "awayFlag": "cr.webp",
+                            "homeScore": 0,
+                            "awayScore": 0,
+                            "live": false,
+                            "time": "20.00",
+                            "field": "paquito",
+                            "status": 0
+                        },
+                        {
+                            "id": 1,
+                            "homeFlag": "it.webp",
+                            "awayFlag": "mx.webp",
+                            "homeTeam": "Italia",
+                            "awayTeam": "Messico",
+                            "homeScore": 1,
+                            "awayScore": 2,
+                            "live": false,
+                            "time": "21.30",
+                            "field": "lebron",
+                            "status": 1
+                        },
+                        {
+                            "id": 2,
+                            "homeFlag": "gl.webp",
+                            "awayFlag": "cg.webp",
+                            "homeTeam": "Groenlandia",
+                            "awayTeam": "Congo",
+                            "homeScore": 2,
+                            "awayScore": 1,
+                            "live": false,
+                            "time": "21.30",
+                            "field": "galan",
+                            "status": 1
+                        }
+                    ]
                 },
                 {
-                    "Sabato 23 Settembre": []
+                    "Sabato 16 Settembre": []
                 },
                 {
-                    "Domenica 24 Settembre": []
+                    "Domenica 17 Settembre": []
+                }
+            ],
+            "daysB": [
+                {
+                    "Venerdì 15 Settembre": [
+                        {
+                            "id": 0,
+                            "homeTeam": "Albania",
+                            "homeFlag": "al.webp",
+                            "awayTeam": "Costa Rica",
+                            "awayFlag": "cr.webp",
+                            "homeScore": 0,
+                            "awayScore": 0,
+                            "live": false,
+                            "time": "20.00",
+                            "field": "paquito",
+                            "status": 0
+                        },
+                        {
+                            "id": 1,
+                            "homeFlag": "it.webp",
+                            "awayFlag": "mx.webp",
+                            "homeTeam": "Italia",
+                            "awayTeam": "Messico",
+                            "homeScore": 1,
+                            "awayScore": 2,
+                            "live": false,
+                            "time": "21.30",
+                            "field": "lebron",
+                            "status": 1
+                        },
+                        {
+                            "id": 2,
+                            "homeFlag": "gl.webp",
+                            "awayFlag": "cg.webp",
+                            "homeTeam": "Groenlandia",
+                            "awayTeam": "Congo",
+                            "homeScore": 2,
+                            "awayScore": 1,
+                            "live": false,
+                            "time": "21.30",
+                            "field": "galan",
+                            "status": 1
+                        }
+                    ]
+                },
+                {
+                    "Sabato 16 Settembre": []
+                },
+                {
+                    "Domenica 17 Settembre": []
                 }
             ]
         }

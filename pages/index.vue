@@ -46,11 +46,20 @@
                         <button
                             :class="[
                            'text-gray-900',
-                            'group flex w-full items-center rounded-md px-2 py-2 text-sm',
+                            'group flex flex-col w-full items-start rounded-md px-2 py-2 text-sm',
                             ]"
                             @click="changePlayday(playday)"
                         >
                             {{ playday.name }}
+                            <div class="flex text-xs text-slate-400">
+                                <span>
+                                    {{  playday.from }}
+                                </span>
+                                - 
+                                <span>
+                                    {{  playday.to  }}
+                                </span>
+                            </div>
                         </button>
                     </HeadlessMenuItem>
                 </HeadlessMenuItems>
@@ -58,11 +67,55 @@
         </HeadlessMenu> 
     </div>
 
-    <div class="my-4 px-4 container mx-auto lg:px-0 lg:grid lg:grid-cols-3 lg:gap-4">
 
-        <CardGame v-for="(day, index) in currentPlayday.days" :key="'day-' + index" :day="day"></CardGame>
+    <HeadlessTabGroup>
+        <HeadlessTabList class="flex space-x-1 rounded-xl bg-blue-900/20 p-1 mx-4 lg:max-w-lg lg:mx-auto">
+            <HeadlessTab
+                as="template"
+                v-slot="{ selected }"
+            >
+                <button
+                    :class="[
+                    'w-full rounded-lg py-2.5 text-sm font-medium leading-5',
+                    'ring-white ring-opacity-60 ring-offset-2 ring-offset-secondary focus:outline-none focus:ring-2',
+                    selected
+                        ? 'bg-white shadow text-primary'
+                        : 'text-white/50 hover:bg-white/[0.12] hover:text-white',
+                    ]"
+                >
+                    Girone A
+                </button>
+            </HeadlessTab>
+            <HeadlessTab
+                as="template"
+                v-slot="{ selected }"
+            >
+                <button
+                    :class="[
+                    'w-full rounded-lg py-2.5 text-sm font-medium leading-5',
+                    'ring-white ring-opacity-60 ring-offset-2 ring-offset-secondary focus:outline-none focus:ring-2',
+                    selected
+                        ? 'bg-white shadow text-primary'
+                        : 'text-white/50 hover:bg-white/[0.12] hover:text-white',
+                    ]"
+                >
+                    Girone B
+                </button>
+            </HeadlessTab>
+        </HeadlessTabList>
 
-    </div>
+        <HeadlessTabPanels class="mt-2">
+            <HeadlessTabPanel class="my-4 px-4 container mx-auto lg:px-0 lg:grid lg:grid-cols-3 lg:gap-4">
+                <CardGame v-for="(day, index) in currentPlayday.daysA" :key="'day-' + index" :day="day"></CardGame>
+            </HeadlessTabPanel>
+
+            <HeadlessTabPanel class="my-4 px-4 container mx-auto lg:px-0 lg:grid lg:grid-cols-3 lg:gap-4">
+                <CardGame v-for="(day, index) in currentPlayday.daysB" :key="'day-' + index" :day="day"></CardGame>
+            </HeadlessTabPanel>
+        </HeadlessTabPanels>
+    </HeadlessTabGroup>
+
+    
 
 </template>
 
