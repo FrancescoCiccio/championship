@@ -5,9 +5,11 @@
     <div v-if="team != undefined">
         <section class="h-[40vh] rounded-b-2xl border-b-2 border-solid border-white/10 text-white overflow-hidden mask flex items-end p-4 lg:">
             <div class="flex flex-col lg:container lg:mx-auto">
-                <h3>
-                    Team
-                </h3>
+                <NuxtLink to="/teams">
+                    <h3>
+                        Back to all team
+                    </h3>
+                </NuxtLink>
                 <h1>
                     {{  team.name }} 
                 </h1>
