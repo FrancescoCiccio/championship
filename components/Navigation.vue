@@ -10,7 +10,7 @@
             </NuxtLink>
         </header>
 
-        <nav role="main-navigation" class="fixed top-0 left-0 z-50 w-full h-screen bg-[#060210] px-10 origin-top scale-y-0">
+        <nav ref="navigation" role="main-navigation" class="fixed top-0 left-0 z-50 w-full h-screen bg-[#060210] px-10 origin-top scale-y-0">
             <ul class="flex flex-col mt-28 gap-4">
                 <li>
                     <NuxtLink class="text-5xl" to="/" @click="toggleMenu">Home</NuxtLink>
@@ -39,7 +39,7 @@ import { gsap } from "gsap";
 const main = ref();
 let ctx;
 let menuAnimation;
-
+let navigation = ref();
 
 
 const toggleMenu = () => {
@@ -48,12 +48,15 @@ const toggleMenu = () => {
 
 onMounted(() => {
 
+    let li = navigation.value.querySelectorAll('li');
+
+
     menuAnimation = gsap
         .timeline()
-        .to('nav', {
+        .to(navigation.value, {
             scaleY: 1
         })
-        .from('nav li', {
+        .from(li, {
             opacity: 0,
             y: -50,
             x: -50,

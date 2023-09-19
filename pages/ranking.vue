@@ -1,7 +1,5 @@
 <template>
 
-    <Navigation />
-
     <section class="h-[40vh] rounded-b-2xl border-b-2 border-solid border-white/10 text-white overflow-hidden mask flex items-end p-4">
         <div class="flex flex-col lg:container lg:mx-auto">
             <h3>
