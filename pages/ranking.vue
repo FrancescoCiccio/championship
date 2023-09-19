@@ -52,12 +52,24 @@
         </HeadlessTabList>
 
         <HeadlessTabPanels class="mt-2 lg:max-w-xl lg:mx-auto">
-            <HeadlessTabPanel class="">
-                <RankingRow v-for="(team, index) in rankingA" :key="index" :team="team" :index="index" />
+            <HeadlessTabPanel class="" v-if="rankingA.length > 0">
+                <RankingRow v-for="(team, index) in rankingA" :key="index" :team="team" />
             </HeadlessTabPanel>
 
-            <HeadlessTabPanel class="">
-                <RankingRow v-for="(team, index) in rankingB" :key="index" :team="team" :index="index" />
+            <HeadlessTabPanel v-else>
+                <p>
+                    Carico le classifiche ...
+                </p>
+            </HeadlessTabPanel>
+
+            <HeadlessTabPanel class="" v-if="rankingB.length > 0">
+                <RankingRow v-for="(team, index) in rankingB" :key="index" :team="team" />
+            </HeadlessTabPanel>
+
+            <HeadlessTabPanel v-else>
+                <p>
+                    Carico le classifiche ...
+                </p>
             </HeadlessTabPanel>
         </HeadlessTabPanels>
     </HeadlessTabGroup>
@@ -70,68 +82,23 @@ import ranksA from '@/public/json/rankingA.json'
 import ranksB from '@/public/json/rankingB.json'
 import axios from 'axios';
 
+
+let rankingA = ref([]);
+let rankingB = ref([]);
+
 onMounted(async () => {
+    
+    const responseA = await fetch('https://swisssystem.org/api/tournament/Standings/d55309a7cd4f439681cc5cb5e1a6fb5a');
+    const classificaA = await responseA.json();
 
-    fetchTitles().then((titles) => console.log(titles));
 
-    console.log('montato');
+    let ranks = classificaA.result.players;
+    let ranksA = []
 
+    ranks.forEach((player) => {
+        ranksA.push(player);
+    })
+
+    rankingA.value = ranksA;
 })
-
-
-const fetchTitles = async () => {
-	try {
-		const response = await axios.get('https://old.reddit.com/r/learnprogramming/');
-
-        const html = response.data;
-
-		const $ = cheerio.load(html);
-
-		const titles = [];
-
-		$('div > p.title > a').each((_idx, el) => {
-			const title = $(el).text()
-			titles.push(title)
-		});
-
-		return titles;
-	} catch (error) {
-		throw error;
-	}
-};
-
-
-const compare = ( a, b ) => {
-  if ( a < b ){
-    return -1;
-  }
-  if ( a > b ){
-    return 1;
-  }
-  return 0;
-}
-
-let rankingA = [];
-let rankingB = [];
-
-for (var team in ranksA) {
-    rankingA.push([team, ranksA[team]]);
-}
-
-for (var team in ranksB) {
-    rankingB.push([team, ranksB[team]]);
-}
-
-rankingA.sort(function(a, b) {
-    return b[1] - a[1];
-});
-
-
-rankingB.sort(function(a, b) {
-    return b[1] - a[1];
-});
 </script>
-
-<style scoped>
-
-</style>
