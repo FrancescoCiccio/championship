@@ -1,5 +1,5 @@
 <template>
-    <header class="px-4 w-full fixed flex top-0 left-0 py-4 z-20 justify-between">
+    <header class="px-4 w-full fixed flex top-0 left-0 py-4 z-20 justify-between items-center">
             <div class="btn bg-primary" @click="toggleMenu">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6 8H18M6 12H18M6 16H18" stroke="#41BFC9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -16,7 +16,7 @@
                     <NuxtLink class="text-5xl" to="/" @click="toggleMenu">Home</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink class="text-5xl" to="/about" @click="toggleMenu">Squadre</NuxtLink>
+                    <NuxtLink class="text-5xl" to="/teams" @click="toggleMenu">Squadre</NuxtLink>
                 </li>
                 <li>
                     <NuxtLink class="text-5xl" to="/ranking" @click="toggleMenu">Classifica</NuxtLink>
