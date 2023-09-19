@@ -3,8 +3,8 @@
     <Navigation />
 
     <div v-if="team != undefined">
-        <section class="h-[40vh] rounded-b-2xl border-b-2 border-solid border-white/10 text-white overflow-hidden mask flex items-end p-4">
-            <div class="flex flex-col">
+        <section class="h-[40vh] rounded-b-2xl border-b-2 border-solid border-white/10 text-white overflow-hidden mask flex items-end p-4 lg:">
+            <div class="flex flex-col lg:container lg:mx-auto">
                 <h3>
                     Team
                 </h3>
@@ -14,7 +14,7 @@
             </div>
         </section>
 
-        <div class="px-4 mt-4 grid grid-cols-2 gap-4">
+        <div class="px-4 mt-4 grid grid-cols-2 gap-4 lg:container lg:mx-auto lg:grid-cols-4">
             <div class="col-span-1 flex flex-col relative" v-for="(player, index) in team.players">
                 <span class="text-[100px] absolute -z-10 -top-8">
                     0{{  index + 1 }}
