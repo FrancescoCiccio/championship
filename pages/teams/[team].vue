@@ -17,7 +17,7 @@
         </section>
 
         <div class="px-4 mt-4 grid grid-cols-2 gap-4 lg:container lg:mx-auto lg:grid-cols-4">
-            <div class="col-span-1 flex flex-col relative" v-for="(player, index) in team.players">
+            <div class="col-span-1 flex flex-col relative" v-for="(player, index) in team.players" :key="player.name+team.name">
                 <span class="text-[100px] absolute -z-10 -top-8">
                     0{{  index + 1 }}
                 </span>
@@ -38,6 +38,7 @@
             </div>
         </div>
     </div>
+    
     <div v-else>
         <h1>
             {{  teamName }}

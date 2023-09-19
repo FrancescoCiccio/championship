@@ -87,16 +87,25 @@ let rankingB = ref([]);
 onMounted(async () => {
     
     const responseA = await fetch('https://swisssystem.org/api/tournament/Standings/d55309a7cd4f439681cc5cb5e1a6fb5a');
+    const responseB = await fetch('https://swisssystem.org/api/tournament/Standings/c3124298fe1e46e2b97a2474388b4858');
     const classificaA = await responseA.json();
+    const classificaB = await responseB.json();
 
 
     let ranks = classificaA.result.players;
-    let ranksA = []
+    let ranksbi = classificaB.result.players;
+    let ranksA = [];
+    let ranksB = [];
 
     ranks.forEach((player) => {
         ranksA.push(player);
     })
 
+    ranksbi.forEach((player) => {
+        ranksB.push(player);
+    })
+
     rankingA.value = ranksA;
+    rankingB.value = ranksB;
 })
 </script>
