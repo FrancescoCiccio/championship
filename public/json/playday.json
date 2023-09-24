@@ -140,33 +140,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "name": "Playday 2",
-            "from": "11-09-2023",
-            "to": "17-09-2023",
-            "daysA": [
-                {
-                    "Venerdì 15 Settembre": []
-                },
-                {
-                    "Sabato 16 Settembre": []
-                },
-                {
-                    "Domenica 17 Settembre": []
-                }
-            ],
-            "daysB": [
-                {
-                    "Venerdì 15 Settembre": []
-                },
-                {
-                    "Sabato 16 Settembre": []
-                },
-                {
-                    "Domenica 17 Settembre": []
-                }
-            ]
         }
     ]
 }
