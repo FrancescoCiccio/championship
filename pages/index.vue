@@ -5,10 +5,10 @@
     <section class="h-[40vh] rounded-b-2xl border-b-2 border-solid border-white/10 text-white overflow-hidden mask flex items-end p-4">
         <div class="flex flex-col container mx-auto">
             <h3>
-                Torneo
+                Footballite
             </h3>
             <h1>
-                Footballite
+                Villa Paola - Mundialito
             </h1>
         </div>
     </section>
@@ -50,11 +50,14 @@
                             @click="changePlayday(playday)"
                         >
                             {{ playday.name }}
-                            <div class="flex text-xs text-slate-400">
+                            <div class="flex text-xs text-slate-400 gap-1">
+                                
                                 <span>
-                                    {{  playday.from }}
+                                    {{ ' ' +  playday.from + ' ' }} 
                                 </span>
-                                - 
+                                <span>
+                                    -
+                                </span>
                                 <span>
                                     {{  playday.to  }}
                                 </span>

@@ -25,11 +25,11 @@
                 - Play your game -
             </div>
     
-            <div class="text-2xl riga-item text-secondary mx-2">
+            <div class="text-2xl lg:text-5xl xl:text-6xl  riga-item text-secondary mx-2">
                 Footballite
             </div>
     
-            <div class="text-2xl riga-item">
+            <div class="text-2xl lg:text-5xl xl:text-6xl  riga-item">
                 - Play your game -
             </div>
         </div>
