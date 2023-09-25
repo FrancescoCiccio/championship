@@ -44,6 +44,18 @@
                 "nickname": "La Penna",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "Giandomenico",
+                "nickname": "Carbonara",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "Tommaso",
+                "nickname": "Florio",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
             }
         ]
     },
@@ -154,8 +166,8 @@
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Domenico",
-                "nickname": "Ferri",
+                "name": "Giandomenico",
+                "nickname": "Falino",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
@@ -540,6 +552,12 @@
             {
                 "name": "Raffaele",
                 "nickname": "B.",
+                "position": "DX",
+                "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "Cesare",
+                "nickname": "Sblano",
                 "position": "DX",
                 "avatar": "/images/players/unknown.png"
             }
