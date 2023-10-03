@@ -285,6 +285,151 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Terza Giornata",
+            "from": "25-10-2023",
+            "to": "29-10-2023",
+            "daysA": [
+                {
+                    "Mercoledì 25 Ottobre": [
+                        {
+                            "time": "21.30",
+                            "field": "Galan",
+                            "homeTeam": "Brasile",
+                            "awayTeam": "Venezuela",
+                            "homeFlag": "br.webp",
+                            "awayFlag": "ve.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Venerdì 27 Ottobre": [
+                        {
+                            "time": "21.30",
+                            "field": "Paquito",
+                            "homeTeam": "Costa Rica",
+                            "awayTeam": "Spagna",
+                            "homeFlag": "cr.webp",
+                            "awayFlag": "es.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Sabato 28 Ottobre": [
+                        {
+                            "time": "10.30",
+                            "field": "Galan",
+                            "homeTeam": "P. Nuova Guinea",
+                            "awayTeam": "Isole Faroe",
+                            "homeFlag": "pg.webp",
+                            "awayFlag": "fo.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Paquito",
+                            "homeTeam": "Danimarca",
+                            "awayTeam": "Tagikistan",
+                            "homeFlag": "dk.webp",
+                            "awayFlag": "tj.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "14.00",
+                            "field": "Galan",
+                            "homeTeam": "Groenlandia",
+                            "awayTeam": "Senegal",
+                            "homeFlag": "gl.webp",
+                            "awayFlag": "sn.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Domenica 29 Ottobre": [
+                        {
+                            "time": "10.30",
+                            "field": "Paquito",
+                            "homeTeam": "Mongolia",
+                            "awayTeam": "Estonia",
+                            "homeFlag": "mn.webp",
+                            "awayFlag": "ee.webp",
+                            "status": 0
+                        }
+                    ]
+                }
+            ],
+            "daysB": [
+                {
+                    "Venerdì 27 Ottobre": [
+                        {
+                            "time": "20.00",
+                            "field": "Lebron",
+                            "homeTeam": "Uzbekistan",
+                            "awayTeam": "Australia",
+                            "homeFlag": "uz.webp",
+                            "awayFlag": "au.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "21.30",
+                            "field": "Lebron",
+                            "homeTeam": "Egitto",
+                            "awayTeam": "Italia",
+                            "homeFlag": "eg.webp",
+                            "awayFlag": "it.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "21.30",
+                            "field": "Galan",
+                            "homeTeam": "Nuova Zelanda",
+                            "awayTeam": "Argentina",
+                            "homeFlag": "nz.webp",
+                            "awayFlag": "ar.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Sabato 28 Ottobre": [
+                        {
+                            "time": "14.00",
+                            "field": "Paquito",
+                            "homeTeam": "Giappone",
+                            "awayTeam": "Albania",
+                            "homeFlag": "jp.webp",
+                            "awayFlag": "al.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Domenica 29 Ottobre": [
+                        {
+                            "time": "12.00",
+                            "field": "Paquito",
+                            "homeTeam": "Kuwait",
+                            "awayTeam": "Andorra",
+                            "homeFlag": "kw.webp",
+                            "awayFlag": "ad.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Lebron",
+                            "homeTeam": "Messico",
+                            "awayTeam": "Burkina Faso",
+                            "homeFlag": "mx.webp",
+                            "awayFlag": "bf.webp",
+                            "status": 0
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
