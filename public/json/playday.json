@@ -34,6 +34,15 @@
                 {
                     "Domenica 15 Ottobre": [
                         {
+                            "time": "09.00",
+                            "field": "Paquito",
+                            "homeTeam": "Brasile",
+                            "awayTeam": "Senegal",
+                            "homeFlag": "br.webp",
+                            "awayFlag": "sn.webp",
+                            "status": 0
+                        },
+                        {
                             "time": "12.00",
                             "field": "Paquito",
                             "homeTeam": "Isole Faroe",
@@ -49,15 +58,6 @@
                             "awayTeam": "Estonia",
                             "homeFlag": "dk.webp",
                             "awayFlag": "ee.webp",
-                            "status": 0
-                        },
-                        {
-                            "time": "15.30",
-                            "field": "Galan",
-                            "homeTeam": "Brasile",
-                            "awayTeam": "Senegal",
-                            "homeFlag": "br.webp",
-                            "awayFlag": "sn.webp",
                             "status": 0
                         },
                         {
