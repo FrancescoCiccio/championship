@@ -14,11 +14,11 @@
 
     <section class="p-4 lg:max-w-xl border-2 border-secondary border-solid rounded-md m-4">
 
-        <h2>
+        <h2 class="mb-8">
             King & BurgerKing 🍔 by Angelo Difry
         </h2>
 
-        <iframe src="https://clips.twitch.tv/embed?clip=RelentlessAuspiciousKleeNerfBlueBlaster-MYBZwRGCZqdLvYP6&parent=www.example.com" frameborder="0" allowfullscreen="false" scrolling="no" height="378" class="w-full"></iframe>
+        <iframe src="https://clips.twitch.tv/embed?clip=RelentlessAuspiciousKleeNerfBlueBlaster-MYBZwRGCZqdLvYP6&parent=poetic-baklava-cd3fc9.netlify.app&parent=www.poetic-baklava-cd3fc9.netlify.app" frameborder="0" allowfullscreen="false" scrolling="no" class="w-full aspect-video"></iframe>
 
 
     </section>
