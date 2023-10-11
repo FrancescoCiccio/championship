@@ -14,7 +14,9 @@
                             "awayTeam": "Costa Rica",
                             "homeFlag": "mn.webp",
                             "awayFlag": "cr.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 2,
+                            "awayScore": 1
                         }
                     ]
                 },

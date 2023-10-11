@@ -5,21 +5,21 @@
                 'flex gap-4 text-2xl p-4 border border-t-0 first:border-t'
                 ]">
             <div>
-                {{  team.position }}
             </div>
             <div>
                 {{  team.playerName }}
             </div>
             <div class="flex-grow"></div>
             <div>
-                {{ team.points * 3 }} pts
+                {{ team.point }} pts
             </div>
         </div>
     </NuxtLink>
 </template>
 
 <script setup>
-    const props = defineProps(['team']);
+    const props = defineProps(['team', 'index']);
+
 </script>
 
 <style scoped>
