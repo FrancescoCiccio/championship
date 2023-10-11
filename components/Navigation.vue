@@ -21,6 +21,10 @@
                 <li>
                     <NuxtLink class="text-5xl" to="/ranking" @click="toggleMenu">Classifica</NuxtLink>
                 </li>
+
+                <li>
+                    <NuxtLink class="text-5xl" to="/bestof" @click="toggleMenu">Best Of Villa Paola Mundialito</NuxtLink>
+                </li>
             </ul>
 
             <div class="absolute right-8 top-8" @click="toggleMenu">
