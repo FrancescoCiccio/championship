@@ -50,25 +50,16 @@
         </HeadlessTabList>
 
         <HeadlessTabPanels class="mt-2 lg:max-w-xl lg:mx-auto">
-            <HeadlessTabPanel class="" v-if="rankingA.length > 0">
+            <HeadlessTabPanel class="">
                 <RankingRow v-for="(team, index) in rankingA" :key="index" :team="team" />
             </HeadlessTabPanel>
 
-            <HeadlessTabPanel v-else>
-                <p>
-                    Carico le classifiche ...
-                </p>
-            </HeadlessTabPanel>
 
-            <HeadlessTabPanel class="" v-if="rankingB.length > 0">
+            <HeadlessTabPanel class="">
                 <RankingRow v-for="(team, index) in rankingB" :key="index" :team="team" />
             </HeadlessTabPanel>
 
-            <HeadlessTabPanel v-else>
-                <p>
-                    Carico le classifiche ...
-                </p>
-            </HeadlessTabPanel>
+         
         </HeadlessTabPanels>
     </HeadlessTabGroup>
 </template>
@@ -85,27 +76,30 @@ let rankingA = ref([]);
 let rankingB = ref([]);
 
 onMounted(async () => {
-    
-    const responseA = await fetch('https://swisssystem.org/api/tournament/Standings/d55309a7cd4f439681cc5cb5e1a6fb5a');
-    const responseB = await fetch('https://swisssystem.org/api/tournament/Standings/c3124298fe1e46e2b97a2474388b4858');
-    const classificaA = await responseA.json();
-    const classificaB = await responseB.json();
+
+    var arrA = [];
+    var arrB = [];
+
+    for (const property in ranksA) {
+        arrA.push({
+            'playerName': property,
+            'point': ranksA[property]
+        })
+    }
+
+    for (const property in ranksB) {
+        arrB.push({
+            'playerName': property,
+            'point': ranksB[property]
+        })
+    }
+
+    arrA.sort((a, b) => b.point - a.point);
+    arrB.sort((a, b) => b.point - a.point);
 
 
-    let ranks = classificaA.result.players;
-    let ranksbi = classificaB.result.players;
-    let ranksA = [];
-    let ranksB = [];
 
-    ranks.forEach((player) => {
-        ranksA.push(player);
-    })
-
-    ranksbi.forEach((player) => {
-        ranksB.push(player);
-    })
-
-    rankingA.value = ranksA;
-    rankingB.value = ranksB;
+    rankingA.value = arrA;
+    rankingB.value = arrB;
 })
 </script>

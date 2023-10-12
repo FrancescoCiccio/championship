@@ -9,15 +9,20 @@
             </div>
         </div>
         <div class="flex flex-col text-2xl lg:text-3xl">
-            <div class="flex items-center gap-2">
-                <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/' + props.match.homeFlag" v-if="props.match.homeFlag" alt="">
-                {{ props.match.homeTeam }}
-            </div>
-            <div class="flex items-center gap-2">
-                <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/' + props.match.awayFlag" v-if="props.match.awayFlag" alt="">
+            <NuxtLink :to="'/teams/' + props.match.homeTeam">
+                <div class="flex items-center gap-2">
+                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/' + props.match.homeFlag" v-if="props.match.homeFlag" alt="">
+                    {{ props.match.homeTeam }}
+                </div>
+            </NuxtLink>
+            <NuxtLink :to="'/teams/' + props.match.awayTeam">
+                <div class="flex items-center gap-2">
+                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/' + props.match.awayFlag" v-if="props.match.awayFlag" alt="">
 
-                {{ props.match.awayTeam }}
-            </div>
+                    {{ props.match.awayTeam }}
+                </div>
+            </NuxtLink>
+
         </div>
         <div class="flex-grow"></div>
         <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center" v-if="props.match.status == 1">

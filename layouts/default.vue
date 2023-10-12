@@ -11,6 +11,10 @@
         <h4 class="text-white/20">
             Main Sponsor
         </h4>
+
+        <a href="https://instagram.com/_villa_paola?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=sito_web_" target="_blank">
+            <img src="/images/villapaola.png" class="mix-blend-multiply max-w-full" alt="">
+        </a>
     </footer>
 </template>
 
