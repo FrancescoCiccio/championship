@@ -30,7 +30,7 @@
             Il Cane Dogma 🐶 by Angelo Difry
         </h2>
 
-        <iframe src="https://clips.twitch.tv/FastCaringYamDancingBanana-p6rkwU7Kp5AAtqFo?tt_content=url&tt_medium=clips_api&parent=poetic-baklava-cd3fc9.netlify.app&parent=www.poetic-baklava-cd3fc9.netlify.app" frameborder="0" allowfullscreen="false" scrolling="no" class="w-full aspect-video"></iframe>
+        <iframe src="https://clips.twitch.tv/embed?clip=FastCaringYamDancingBanana-p6rkwU7Kp5AAtqFo&parent=poetic-baklava-cd3fc9.netlify.app&parent=www.poetic-baklava-cd3fc9.netlify.app" frameborder="0" allowfullscreen="false" scrolling="no" class="w-full aspect-video"></iframe>
 
 
     </section>
