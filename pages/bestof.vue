@@ -27,10 +27,10 @@
     <section class="p-4 lg:max-w-xl border-2 border-secondary border-solid rounded-md m-4 lg:mx-auto">
 
         <h2 class="mb-8">
-            King & BurgerKing 🍔 by Angelo Difry
+            Il Cane Dogma 🐶 by Angelo Difry
         </h2>
 
-        <iframe src="https://clips.twitch.tv/embed?clip=RelentlessAuspiciousKleeNerfBlueBlaster-MYBZwRGCZqdLvYP6&parent=poetic-baklava-cd3fc9.netlify.app&parent=www.poetic-baklava-cd3fc9.netlify.app" frameborder="0" allowfullscreen="false" scrolling="no" class="w-full aspect-video"></iframe>
+        <iframe src="https://clips.twitch.tv/FastCaringYamDancingBanana-p6rkwU7Kp5AAtqFo?tt_content=url&tt_medium=clips_api&parent=poetic-baklava-cd3fc9.netlify.app&parent=www.poetic-baklava-cd3fc9.netlify.app" frameborder="0" allowfullscreen="false" scrolling="no" class="w-full aspect-video"></iframe>
 
 
     </section>
@@ -38,10 +38,10 @@
     <section class="p-4 lg:max-w-xl border-2 border-secondary border-solid rounded-md m-4 lg:mx-auto">
 
         <h2 class="mb-8">
-            King & BurgerKing 🍔 by Angelo Difry
+            Play of the Match 🏆 by Giacomino
         </h2>
 
-        <iframe src="https://clips.twitch.tv/embed?clip=RelentlessAuspiciousKleeNerfBlueBlaster-MYBZwRGCZqdLvYP6&parent=poetic-baklava-cd3fc9.netlify.app&parent=www.poetic-baklava-cd3fc9.netlify.app" frameborder="0" allowfullscreen="false" scrolling="no" class="w-full aspect-video"></iframe>
+        <iframe src="https://clips.twitch.tv/embed?clip=BlatantGlamorousPandaPJSalt-PGHsDnNc4WCrhgqw&parent=poetic-baklava-cd3fc9.netlify.app&parent=www.poetic-baklava-cd3fc9.netlify.app" frameborder="0" allowfullscreen="false" scrolling="no" class="w-full aspect-video"></iframe>
 
 
     </section>
