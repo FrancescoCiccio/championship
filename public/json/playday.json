@@ -29,7 +29,9 @@
                             "awayTeam": "Venezuela",
                             "homeFlag": "pg.webp",
                             "awayFlag": "ve.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         }
                     ]
                 },
@@ -51,7 +53,9 @@
                             "awayTeam": "Tagikistan",
                             "homeFlag": "fo.webp",
                             "awayFlag": "tj.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         },
                         {
                             "time": "12.00",
@@ -128,7 +132,9 @@
                             "awayTeam": "Messico",
                             "homeFlag": "jp.webp",
                             "awayFlag": "mx.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 2,
+                            "awayScore": 1
                         }
                     ]
                 },
