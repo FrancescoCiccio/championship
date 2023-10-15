@@ -66,7 +66,9 @@
                             "awayTeam": "Estonia",
                             "homeFlag": "dk.webp",
                             "awayFlag": "ee.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         },
                         {
                             "time": "15.30",
