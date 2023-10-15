@@ -44,7 +44,9 @@
                             "awayTeam": "Senegal",
                             "homeFlag": "br.webp",
                             "awayFlag": "sn.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         },
                         {
                             "time": "12.00",
@@ -151,7 +153,9 @@
                             "awayTeam": "Albania",
                             "homeFlag": "kw.webp",
                             "awayFlag": "al.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         }
                     ]
                 }
