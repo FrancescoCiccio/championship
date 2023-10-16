@@ -388,6 +388,19 @@
             ],
             "daysB": [
                 {
+                    "Giovedì 26 Ottobre": [
+                        {
+                            "time": "21.30",
+                            "field": "Galan",
+                            "homeTeam": "Kuwait",
+                            "awayTeam": "Andorra",
+                            "homeFlag": "kw.webp",
+                            "awayFlag": "ad.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
                     "Venerdì 27 Ottobre": [
                         {
                             "time": "20.00",
@@ -433,15 +446,6 @@
                 },
                 {
                     "Domenica 29 Ottobre": [
-                        {
-                            "time": "12.00",
-                            "field": "Paquito",
-                            "homeTeam": "Kuwait",
-                            "awayTeam": "Andorra",
-                            "homeFlag": "kw.webp",
-                            "awayFlag": "ad.webp",
-                            "status": 0
-                        },
                         {
                             "time": "12.00",
                             "field": "Lebron",

@@ -346,26 +346,26 @@
         "flag": "fo.webp",
         "players": [
             {
-                "name": "Palmisano",
-                "nickname": "Nicolas",
+                "name": "Tonio",
+                "nickname": "Troiani",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Galiani",
-                "nickname": "Aldo",
+                "name": "Stefano",
+                "nickname": "Cannito",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Nicola",
-                "nickname": "Del Re",
+                "name": "Luca",
+                "nickname": "Schiraldi",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Lello",
-                "nickname": "Rubino",
+                "name": "Claudio",
+                "nickname": "Erroi",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             }
@@ -520,26 +520,26 @@
         "flag": "pg.webp",
         "players": [
             {
-                "name": "Catanzaro",
-                "nickname": "Francesco",
+                "name": "Pasquale",
+                "nickname": "Addabbo",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Piero",
-                "nickname": "Acito",
+                "name": "Simone",
+                "nickname": "Nunziante",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Moramarco",
-                "nickname": "Nicola",
+                "name": "Raffaello",
+                "nickname": "Rosini",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Davide",
-                "nickname": "Nanna",
+                "name": "Elgio",
+                "nickname": "Malvaso",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             }
