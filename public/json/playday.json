@@ -458,6 +458,152 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Quarta Giornata",
+            "from": "31-10-2023",
+            "to": "05-11-2023",
+            "daysA": [
+                {
+                    "Venerdì 3 Novembre": [
+                        {
+                            "time": "21.30",
+                            "field": "Lebron",
+                            "homeTeam": "Spagna",
+                            "awayTeam": "P. Nuova Guinea",
+                            "homeFlag": "es.webp",
+                            "awayFlag": "pg.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Sabato 4 Novembre": [
+                        {
+                            "time": "10.30",
+                            "field": "Paquito",
+                            "homeTeam": "Estonia",
+                            "awayTeam": "Costa Rica",
+                            "homeFlag": "ee.webp",
+                            "awayFlag": "cr.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Paquito",
+                            "homeTeam": "Senegal",
+                            "awayTeam": "Mongolia",
+                            "homeFlag": "sn.webp",
+                            "awayFlag": "mn.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "15.30",
+                            "field": "Galan",
+                            "homeTeam": "Tagikistan",
+                            "awayTeam": "Groenlandia",
+                            "homeFlag": "tj.webp",
+                            "awayFlag": "gl.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Domenica 5 Novembre": [
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Venezuela",
+                            "awayTeam": "Danimarca",
+                            "homeFlag": "ve.webp",
+                            "awayFlag": "dk.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "17.00",
+                            "field": "Galan",
+                            "homeTeam": "Isole Faroe",
+                            "awayTeam": "Brasile",
+                            "homeFlag": "fo.webp",
+                            "awayFlag": "br.webp",
+                            "status": 0
+                        }
+                    ]
+                }
+            ],
+            "daysB": [
+                {
+                    "Martedì 31 Ottobre": [
+                        {
+                            "time": "21.30",
+                            "field": "Galan",
+                            "homeTeam": "Italia",
+                            "awayTeam": "Kuwait",
+                            "homeFlag": "it.webp",
+                            "awayFlag": "ku.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Venerdì 3 Novembre": [
+                        {
+                            "time": "21.30",
+                            "field": "Galan",
+                            "homeTeam": "Argentina",
+                            "awayTeam": "Egitto",
+                            "homeFlag": "ar.webp",
+                            "awayFlag": "eg.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "21.30",
+                            "field": "Paquito",
+                            "homeTeam": "Andorra",
+                            "awayTeam": "Uzbekistan",
+                            "homeFlag": "ad.webp",
+                            "awayFlag": "uz.webp",
+                            "status": 0
+                        }
+        
+                    ]
+                },
+                {
+                    "Sabato 4 Novembre": [
+                        {
+                            "time": "14.00",
+                            "field": "Paquito",
+                            "homeTeam": "Australia",
+                            "awayTeam": "Giappone",
+                            "homeFlag": "au.webp",
+                            "awayFlag": "jp.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Domenica 5 Novembre": [
+                        {
+                            "time": "10.30",
+                            "field": "Lebron",
+                            "homeTeam": "Burkina Faso",
+                            "awayTeam": "Nuova Zelanda",
+                            "homeFlag": "bf.webp",
+                            "awayFlag": "nz.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Paquito",
+                            "homeTeam": "Albania",
+                            "awayTeam": "Messico",
+                            "homeFlag": "al.webp",
+                            "awayFlag": "mx.webp",
+                            "status": 0
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
