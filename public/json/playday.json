@@ -247,7 +247,9 @@
                             "awayTeam": "Giappone",
                             "homeFlag": "bf.webp",
                             "awayFlag": "jp.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 1,
+                            "awayScore": 2
                         }
                     ]
                 },
@@ -290,20 +292,20 @@
                         },
                         {
                             "time": "15.30",
-                            "field": "Lebron",
-                            "homeTeam": "Australia",
-                            "awayTeam": "Kuwait",
-                            "homeFlag": "au.webp",
-                            "awayFlag": "kw.webp",
-                            "status": 0
-                        },
-                        {
-                            "time": "15.30",
                             "field": "Galan",
                             "homeTeam": "Italia",
                             "awayTeam": "Argentina",
                             "homeFlag": "it.webp",
                             "awayFlag": "ar.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "17.00",
+                            "field": "Lebron",
+                            "homeTeam": "Australia",
+                            "awayTeam": "Kuwait",
+                            "homeFlag": "au.webp",
+                            "awayFlag": "kw.webp",
                             "status": 0
                         }
                     ]
