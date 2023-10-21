@@ -179,7 +179,9 @@
                             "awayTeam": "P. Nuova Guinea",
                             "homeFlag": "cr.webp",
                             "awayFlag": "pg.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 1,
+                            "awayScore": 2
                         }
                     ]
                 },
