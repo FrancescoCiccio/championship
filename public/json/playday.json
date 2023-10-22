@@ -304,7 +304,9 @@
                             "awayTeam": "Uzbekistan",
                             "homeFlag": "al.webp",
                             "awayFlag": "uz.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         },
                         {
                             "time": "15.30",
@@ -313,7 +315,9 @@
                             "awayTeam": "Argentina",
                             "homeFlag": "it.webp",
                             "awayFlag": "ar.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 1,
+                            "awayScore": 2
                         },
                         {
                             "time": "17.00",
@@ -322,7 +326,9 @@
                             "awayTeam": "Kuwait",
                             "homeFlag": "au.webp",
                             "awayFlag": "kw.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         }
                     ]
                 }
