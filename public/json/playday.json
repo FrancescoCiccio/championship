@@ -194,7 +194,9 @@
                             "awayTeam": "Mongolia",
                             "homeFlag": "es.webp",
                             "awayFlag": "mn.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         },
                         {
                             "time": "12.00",
@@ -203,7 +205,9 @@
                             "awayTeam": "Danimarca",
                             "homeFlag": "sn.webp",
                             "awayFlag": "dk.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         },
                         {
                             "time": "12.00",
@@ -212,7 +216,9 @@
                             "awayTeam": "Brasile",
                             "homeFlag": "tj.webp",
                             "awayFlag": "br.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 1,
+                            "awayScore": 2
                         },
                         {
                             "time": "14.00",
@@ -221,7 +227,9 @@
                             "awayTeam": "Groenlandia",
                             "homeFlag": "ee.webp",
                             "awayFlag": "gl.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         }
                     ]
                 },
@@ -234,7 +242,9 @@
                             "awayTeam": "Isole Faroe",
                             "homeFlag": "ve.webp",
                             "awayFlag": "fo.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         }
                     ]
                 }
