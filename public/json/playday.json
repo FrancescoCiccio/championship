@@ -340,6 +340,19 @@
             "to": "29-10-2023",
             "daysA": [
                 {
+                    "Martedì 24 Ottobre:": [
+                        {
+                            "time": "21.30",
+                            "field": "Paquito",
+                            "homeTeam": "P. Nuova Guinea",
+                            "awayTeam": "Isole Faroe",
+                            "homeFlag": "pg.webp",
+                            "awayFlag": "fo.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
                     "Mercoledì 25 Ottobre": [
                         {
                             "time": "21.30",
@@ -367,15 +380,6 @@
                 },
                 {
                     "Sabato 28 Ottobre": [
-                        {
-                            "time": "10.30",
-                            "field": "Galan",
-                            "homeTeam": "P. Nuova Guinea",
-                            "awayTeam": "Isole Faroe",
-                            "homeFlag": "pg.webp",
-                            "awayFlag": "fo.webp",
-                            "status": 0
-                        },
                         {
                             "time": "12.00",
                             "field": "Paquito",
