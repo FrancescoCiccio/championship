@@ -348,7 +348,9 @@
                             "awayTeam": "Isole Faroe",
                             "homeFlag": "pg.webp",
                             "awayFlag": "fo.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         }
                     ]
                 },
@@ -361,7 +363,9 @@
                             "awayTeam": "Venezuela",
                             "homeFlag": "br.webp",
                             "awayFlag": "ve.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 2,
+                            "awayScore": 1
                         }
                     ]
                 },
@@ -424,7 +428,9 @@
                             "awayTeam": "Andorra",
                             "homeFlag": "kw.webp",
                             "awayFlag": "ad.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         }
                     ]
                 },
@@ -459,7 +465,9 @@
                             "awayTeam": "Argentina",
                             "homeFlag": "nz.webp",
                             "awayFlag": "ar.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         },
                         {
                             "time": "14.00",
