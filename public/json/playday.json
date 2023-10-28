@@ -387,15 +387,6 @@
                 {
                     "Sabato 28 Ottobre": [
                         {
-                            "time": "12.00",
-                            "field": "Paquito",
-                            "homeTeam": "Danimarca",
-                            "awayTeam": "Tagikistan",
-                            "homeFlag": "dk.webp",
-                            "awayFlag": "tj.webp",
-                            "status": 0
-                        },
-                        {
                             "time": "14.00",
                             "field": "Galan",
                             "homeTeam": "Groenlandia",
@@ -403,18 +394,23 @@
                             "homeFlag": "gl.webp",
                             "awayFlag": "sn.webp",
                             "status": 0
-                        }
-                    ]
-                },
-                {
-                    "Domenica 29 Ottobre": [
+                        },
                         {
-                            "time": "10.30",
+                            "time": "15.30",
                             "field": "Paquito",
                             "homeTeam": "Mongolia",
                             "awayTeam": "Estonia",
                             "homeFlag": "mn.webp",
                             "awayFlag": "ee.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "17.00",
+                            "field": "Paquito",
+                            "homeTeam": "Danimarca",
+                            "awayTeam": "Tagikistan",
+                            "homeFlag": "dk.webp",
+                            "awayFlag": "tj.webp",
                             "status": 0
                         }
                     ]
