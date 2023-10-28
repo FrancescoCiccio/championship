@@ -484,7 +484,9 @@
                             "awayTeam": "Albania",
                             "homeFlag": "jp.webp",
                             "awayFlag": "al.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 2,
+                            "awayScore": 1
                         }
                     ]
                 },
