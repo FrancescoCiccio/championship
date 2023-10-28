@@ -393,7 +393,9 @@
                             "awayTeam": "Senegal",
                             "homeFlag": "gl.webp",
                             "awayFlag": "sn.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         },
                         {
                             "time": "15.30",
@@ -402,7 +404,9 @@
                             "awayTeam": "Estonia",
                             "homeFlag": "mn.webp",
                             "awayFlag": "ee.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 2,
+                            "awayScore": 1
                         },
                         {
                             "time": "17.00",
@@ -411,7 +415,9 @@
                             "awayTeam": "Tagikistan",
                             "homeFlag": "dk.webp",
                             "awayFlag": "tj.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         }
                     ]
                 }
