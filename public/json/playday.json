@@ -649,6 +649,147 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Quinta Giornata",
+            "from": "17-10-2023",
+            "to": "22-10-2023",
+            "daysA": [
+                {
+                    "Mercoledì 8 Novembre": [
+                        {
+                            "time": "21.30",
+                            "field": "Paquito",
+                            "homeTeam": "Costa Rica",
+                            "awayTeam": "Senegal",
+                            "homeFlag": "cr.webp",
+                            "awayFlag": "sn.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Sabato 11 Novembre": [
+                        {
+                            "time": "10:30",
+                            "field": "Lebron",
+                            "homeTeam": "Spagna",
+                            "awayTeam": "Estonia",
+                            "homeFlag": "es.webp",
+                            "awayFlag": "ee.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "17.00",
+                            "field": "Lebron",
+                            "homeTeam": "Danimarca",
+                            "awayTeam": "Isole Faroe",
+                            "homeFlag": "dk.webp",
+                            "awayFlag": "fo.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "18:30",
+                            "field": "Galan",
+                            "homeTeam": "Brasile",
+                            "awayTeam": "P. Nuova Guinea",
+                            "homeFlag": "br.webp",
+                            "awayFlag": "pg.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Domenica 12 Novembre": [
+                        {
+                            "time": "10.30",
+                            "field": "Galan",
+                            "homeTeam": "Groenlandia",
+                            "awayTeam": "Venezuela",
+                            "homeFlag": "gl.webp",
+                            "awayFlag": "ve.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Paquito",
+                            "homeTeam": "Mongolia",
+                            "awayTeam": "Tagikistan",
+                            "homeFlag": "es.webp",
+                            "awayFlag": "pg.webp",
+                            "status": 0
+                        }
+                    ]
+                }
+            ],
+            "daysB": [
+                {
+                    "Giovedì 9 Novembre": [
+                        {
+                            "time": "21.30",
+                            "field": "Lebron",
+                            "homeTeam": "Messico",
+                            "awayTeam": "Australia",
+                            "homeFlag": "mx.webp",
+                            "awayFlag": "au.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Sabato 11 Novembre": [
+                        {
+                            "time": "10.30",
+                            "field": "Paquito",
+                            "homeTeam": "Burkina Faso",
+                            "awayTeam": "Albania",
+                            "homeFlag": "bf.webp",
+                            "awayFlag": "al.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "17.00",
+                            "field": "Lebron",
+                            "homeTeam": "Nuova Zelanda",
+                            "awayTeam": "Egitto",
+                            "homeFlag": "nz.webp",
+                            "awayFlag": "eg.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Domenica 12 Novembre": [
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Uzbekistan",
+                            "awayTeam": "Italia",
+                            "homeFlag": "uz.webp",
+                            "awayFlag": "it.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Paquito",
+                            "homeTeam": "Giappone",
+                            "awayTeam": "Andorra",
+                            "homeFlag": "jp.webp",
+                            "awayFlag": "ad.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "17.00",
+                            "field": "Galan",
+                            "homeTeam": "Kuwait",
+                            "awayTeam": "Argentina",
+                            "homeFlag": "kw.webp",
+                            "awayFlag": "ar.webp",
+                            "status": 0
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
