@@ -499,7 +499,9 @@
                             "awayTeam": "Burkina Faso",
                             "homeFlag": "mx.webp",
                             "awayFlag": "bf.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         }
                     ]
                 }
