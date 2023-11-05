@@ -51,12 +51,12 @@
 
         <HeadlessTabPanels class="mt-2 lg:max-w-xl lg:mx-auto">
             <HeadlessTabPanel class="">
-                <RankingRow v-for="(team, index) in rankingA" :key="index" :team="team" />
+                <RankingRow v-for="(team, index) in rankingA" :key="index" :team="team" :index="index" />
             </HeadlessTabPanel>
 
 
             <HeadlessTabPanel class="">
-                <RankingRow v-for="(team, index) in rankingB" :key="index" :team="team" />
+                <RankingRow v-for="(team, index) in rankingB" :key="index" :team="team" :index="index" />
             </HeadlessTabPanel>
 
          

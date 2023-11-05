@@ -1,10 +1,15 @@
 <template>
     <NuxtLink :to="'/teams/' + team.playerName">
         <div :class="[
-                index < 2 ? 'border-yellow-600' : 'border-white',
                 'flex gap-4 text-2xl p-4 border border-t-0 first:border-t'
                 ]">
-            <div>
+            <div :class="[
+                'flex w-10 h-10 rounded-full items-center justify-center bg-white text-primary',
+                index < 4 ? 'bg-[#FDBA37]' : '',
+                index > 3 && index < 8 ? 'bg-[#D6D6D6]' : '',
+                index > 7 ? 'bg-[#5F3E17]' : '',
+            ]">
+                {{ index + 1 }}
             </div>
             <div>
                 {{  team.playerName }}
