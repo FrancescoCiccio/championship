@@ -695,6 +695,19 @@
                     ]
                 },
                 {
+                    "Giovedì 9 Novembre": [
+                        {
+                            "time": "15.30",
+                            "field": "Paquito",
+                            "homeTeam": "Mongolia",
+                            "awayTeam": "Tagikistan",
+                            "homeFlag": "es.webp",
+                            "awayFlag": "pg.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
                     "Sabato 11 Novembre": [
                         {
                             "time": "10:30",
@@ -735,16 +748,8 @@
                             "homeFlag": "gl.webp",
                             "awayFlag": "ve.webp",
                             "status": 0
-                        },
-                        {
-                            "time": "10.30",
-                            "field": "Paquito",
-                            "homeTeam": "Mongolia",
-                            "awayTeam": "Tagikistan",
-                            "homeFlag": "es.webp",
-                            "awayFlag": "pg.webp",
-                            "status": 0
                         }
+                        
                     ]
                 }
             ],
