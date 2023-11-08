@@ -105,6 +105,7 @@
             <HeadlessTabPanels class="mt-2">
                 <HeadlessTabPanel class="my-4 px-4 container mx-auto lg:px-0 lg:grid lg:grid-cols-3 lg:gap-4">
                    
+                    
                     <div 
                         v-for="(day, index) in currentPlayday.daysA"
                         class="cardgame my-2 lg:my-8 lg:col-span-1">
@@ -160,7 +161,25 @@ const changePlayday = (newplayday) => {
     currentPlayday.value = newplayday
 }
 
+const weekDays = [
+        "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato", "Domenica"];
 
+function sortDataByDay(data) {
+
+    const sortedData = {};
+
+    for (const property in data) {
+        for (const day of weekDays) {
+            if (property.includes(day)) {
+            sortedData[day] = data[property];
+            break; // Esci dal loop interno quando hai trovato una corrispondenza
+            }
+        }
+    }
+    console.log(sortedData);
+
+    return sortedData;
+}
 
 onMounted(async () => {
 
@@ -170,6 +189,8 @@ onMounted(async () => {
 
     const playdaysRequest = await fetch('./api/query?col=Giornate');    
     const playdaysResponse = await playdaysRequest.json();
+
+    
     
     var tempPlaydays = playdaysResponse.result;
 
@@ -199,7 +220,7 @@ onMounted(async () => {
             groupedDataA[giorno].push(item);
         });
 
-        day['daysA'] = groupedDataA;
+        day['daysA'] = sortDataByDay(groupedDataA);
 
         var fetchB = await fetch(partiteBurl);
         var fetchB = await fetchB.json();
@@ -220,6 +241,8 @@ onMounted(async () => {
         day['daysB'] = groupedDataB;
 
         if(index == tempPlaydays.length - 1) {
+
+
             loadPlaydays(tempPlaydays);
             changePlayday(tempPlaydays[3]);
 
