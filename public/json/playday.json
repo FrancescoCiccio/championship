@@ -690,7 +690,9 @@
                             "awayTeam": "Senegal",
                             "homeFlag": "cr.webp",
                             "awayFlag": "sn.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         }
                     ]
                 },
@@ -703,7 +705,9 @@
                             "awayTeam": "Tagikistan",
                             "homeFlag": "es.webp",
                             "awayFlag": "pg.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         }
                     ]
                 },
@@ -763,7 +767,9 @@
                             "awayTeam": "Australia",
                             "homeFlag": "mx.webp",
                             "awayFlag": "au.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 2,
+                            "awayScore": 1
                         }
                     ]
                 },
