@@ -720,7 +720,9 @@
                             "awayTeam": "Estonia",
                             "homeFlag": "es.webp",
                             "awayFlag": "ee.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 1,
+                            "awayScore": 2
                         },
                         {
                             "time": "17.00",
@@ -782,7 +784,9 @@
                             "awayTeam": "Albania",
                             "homeFlag": "bf.webp",
                             "awayFlag": "al.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         },
                         {
                             "time": "17.00",
