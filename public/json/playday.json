@@ -731,7 +731,9 @@
                             "awayTeam": "Isole Faroe",
                             "homeFlag": "dk.webp",
                             "awayFlag": "fo.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         },
                         {
                             "time": "18:30",
@@ -740,7 +742,9 @@
                             "awayTeam": "P. Nuova Guinea",
                             "homeFlag": "br.webp",
                             "awayFlag": "pg.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         }
                     ]
                 },
@@ -755,7 +759,6 @@
                             "awayFlag": "ve.webp",
                             "status": 0
                         }
-                        
                     ]
                 }
             ],
@@ -795,7 +798,9 @@
                             "awayTeam": "Egitto",
                             "homeFlag": "nz.webp",
                             "awayFlag": "eg.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 1,
+                            "awayScore": 2
                         }
                     ]
                 },
