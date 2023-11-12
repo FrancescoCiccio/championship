@@ -915,19 +915,6 @@
             ],
             "daysB": [
                 {
-                    "Martedì 14 Novembre": [
-                        {
-                            "time": "21.30",
-                            "field": "Galan",
-                            "homeTeam": "Egitto",
-                            "awayTeam": "Kuwait",
-                            "homeFlag": "eg.webp",
-                            "awayFlag": "kw.webp",
-                            "status": 0
-                        }
-                    ]
-                },
-                {
                     "Giovedì 16 Novembre": [
                         {
                             "time": "21.30",
@@ -942,6 +929,15 @@
                 },
                 {
                     "Venerdì 17 Novembre": [
+                        {
+                            "time": "20.00",
+                            "field": "Galan",
+                            "homeTeam": "Egitto",
+                            "awayTeam": "Kuwait",
+                            "homeFlag": "eg.webp",
+                            "awayFlag": "kw.webp",
+                            "status": 0
+                        },
                         {
                             "time": "21.30",
                             "field": "Galan",
