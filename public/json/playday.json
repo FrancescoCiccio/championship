@@ -600,7 +600,7 @@
                             "homeTeam": "Italia",
                             "awayTeam": "Kuwait",
                             "homeFlag": "it.webp",
-                            "awayFlag": "ku.webp",
+                            "awayFlag": "kw.webp",
                             "status": 1,
                             "homeScore": 2,
                             "awayScore": 1
@@ -988,6 +988,151 @@
                             "awayTeam": "Nuova Zelanda",
                             "homeFlag": "al.webp",
                             "awayFlag": "nz.webp",
+                            "status": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Settima Giornata",
+            "from": "",
+            "to": "",
+            "daysA": [
+                {
+                    "Mercoledì 22 Novembre": [
+                        {
+                            "time": "21.30",
+                            "field": "Galan",
+                            "homeTeam": "Costa Rica",
+                            "awayTeam": "Venezuela",
+                            "homeFlag": "cr.webp",
+                            "awayFlag": "ve.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Sabato 25 Novembre": [
+                        {
+                            "time": "12.00",
+                            "field": "Paquito",
+                            "homeTeam": "Estonia",
+                            "awayTeam": "Senegal",
+                            "homeFlag": "sn.webp",
+                            "awayFlag": "es.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "15.30",
+                            "field": "Galan",
+                            "homeTeam": "Groenlandia",
+                            "awayTeam": "Brasile",
+                            "homeFlag": "gl.webp",
+                            "awayFlag": "br.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Domenica 26 Ottobre": [
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Spagna",
+                            "awayTeam": "Tagikistan",
+                            "homeFlag": "es.webp",
+                            "awayFlag": "tj.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "17.00",
+                            "field": "Galan",
+                            "homeTeam": "P. Nuova Guinea",
+                            "awayTeam": "Danimarca",
+                            "homeFlag": "pg.webp",
+                            "awayFlag": "dk.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "17.00",
+                            "field": "Paquito",
+                            "homeTeam": "Mongolia",
+                            "awayTeam": "Isole Faroe",
+                            "homeFlag": "mn.webp",
+                            "awayFlag": "fo.webp",
+                            "status": 0
+                        }
+                    ]
+                }
+            ],
+            "daysB": [
+                {
+                    "Giovedì 23 Novembre": [
+                        {
+                            "time": "21.30",
+                            "field": "Galan",
+                            "homeTeam": "Giappone",
+                            "awayTeam": "Argentina",
+                            "homeFlag": "jp.webp",
+                            "awayFlag": "ar.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Venerdì 24 Novembre": [
+                        {
+                            "time": "21.30",
+                            "field": "Paquito",
+                            "homeTeam": "Burkina Faso",
+                            "awayTeam": "Andorra",
+                            "homeFlag": "bf.webp",
+                            "awayFlag": "ad.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "21.30",
+                            "field": "Galan",
+                            "homeTeam": "Messico",
+                            "awayTeam": "Italia",
+                            "homeFlag": "mx.webp",
+                            "awayFlag": "it.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Sabato 25 Novembre": [
+                        {
+                            "time": "10.30",
+                            "field": "Galan",
+                            "homeTeam": "Albania",
+                            "awayTeam": "Australia",
+                            "homeFlag": "al.webp",
+                            "awayFlag": "au.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "14.00",
+                            "field": "Galan",
+                            "homeTeam": "Nuova Zelanda",
+                            "awayTeam": "Kuwait",
+                            "homeFlag": "nz.webp",
+                            "awayFlag": "kw.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Domenica 26 Novembre": [
+                        {
+                            "time": "10.30",
+                            "field": "Galan",
+                            "homeTeam": "Uzbekistan",
+                            "awayTeam": "Egitto",
+                            "homeFlag": "uz.webp",
+                            "awayFlag": "eg.webp",
                             "status": 0
                         }
                     ]
