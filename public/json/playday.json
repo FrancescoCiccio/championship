@@ -859,7 +859,9 @@
                             "awayTeam": "Spagna",
                             "homeFlag": "sn.webp",
                             "awayFlag": "es.webp",
-                            "status": 0
+                            "status": 1, 
+                            "homeScore": 2,
+                            "awayScore": 1
                         }
                     ]
                 },
@@ -907,7 +909,9 @@
                             "awayTeam": "Mongolia",
                             "homeFlag": "ve.webp",
                             "awayFlag": "mn.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 2,
+                            "awayScore": 1
                         },
                         {
                             "time": "17.00",
