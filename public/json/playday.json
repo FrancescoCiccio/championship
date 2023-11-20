@@ -926,7 +926,9 @@
                             "awayTeam": "Groenlandia",
                             "homeFlag": "fo.webp",
                             "awayFlag": "gl.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         }
                     ]
                 }
@@ -982,7 +984,9 @@
                             "awayTeam": "Uzbekistan",
                             "homeFlag": "ar.webp",
                             "awayFlag": "uz.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 2,
+                            "awayScore": 1
                         },
                         {
                             "time": "15.30",
@@ -1006,7 +1010,9 @@
                             "awayTeam": "Nuova Zelanda",
                             "homeFlag": "al.webp",
                             "awayFlag": "nz.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         }
                     ]
                 }
