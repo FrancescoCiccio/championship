@@ -944,8 +944,8 @@
                             "homeFlag": "it.webp",
                             "awayFlag": "jp.webp",
                             "status": 1,
-                            "homeScore": 1,
-                            "awayScore": 2
+                            "homeScore": 2,
+                            "awayScore": 1
                         }
                     ]
                 },
