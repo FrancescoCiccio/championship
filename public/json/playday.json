@@ -1032,7 +1032,9 @@
                             "awayTeam": "Venezuela",
                             "homeFlag": "cr.webp",
                             "awayFlag": "ve.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 1,
+                            "awayScore": 2
                         }
                     ]
                 },
@@ -1113,7 +1115,9 @@
                             "awayTeam": "Andorra",
                             "homeFlag": "bf.webp",
                             "awayFlag": "ad.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 2,
+                            "awayScore": 1
                         },
                         {
                             "time": "21.30",
@@ -1157,6 +1161,306 @@
                             "awayTeam": "Egitto",
                             "homeFlag": "uz.webp",
                             "awayFlag": "eg.webp",
+                            "status": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ottava Giornata",
+            "from": "",
+            "to": "",
+            "daysA": [
+                {
+                    "Martedì 28 Novembre": [
+                        {
+                            "time": "21.30",
+                            "field": "Galan",
+                            "homeTeam": "Senegal",
+                            "awayTeam": "P. Nuova Guinea",
+                            "homeFlag": "sn.webp",
+                            "awayFlag": "pg.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Mercoledì 29 Novembre": [
+                        {
+                            "time": "21.30",
+                            "field": "Galan",
+                            "homeTeam": "Venezuela",
+                            "awayTeam": "Spagna",
+                            "homeFlag": "ve.webp",
+                            "awayFlag": "es.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Venerdì 1 Dicembre": [
+                        {
+                            "time": "21.30",
+                            "field": "Paquito",
+                            "homeTeam": "Isole Faroe",
+                            "awayTeam": "Costa Rica",
+                            "homeFlag": "fo.webp",
+                            "awayFlag": "cr.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Sabato 2 Dicembre": [
+                        {
+                            "time": "10.30",
+                            "field": "Paquito",
+                            "homeTeam": "Mongolia",
+                            "awayTeam": "Brasile",
+                            "homeFlag": "mn.webp",
+                            "awayFlag": "br.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Paquito",
+                            "homeTeam": "Tagikistan",
+                            "awayTeam": "Estonia",
+                            "homeFlag": "tj.webp",
+                            "awayFlag": "ee.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "17.00",
+                            "field": "Galan",
+                            "homeTeam": "Danimarca",
+                            "awayTeam": "Groenlandia",
+                            "homeFlag": "dk.webp",
+                            "awayFlag": "gl.webp",
+                            "status": 0
+                        }
+                    ]
+                }
+            ],
+            "daysB": [
+                {
+                    "Venerdì 1 Dicembre": [
+                        {
+                            "time": "10.30",
+                            "field": "Paquito",
+                            "homeTeam": "Andorra",
+                            "awayTeam": "Albania",
+                            "homeFlag": "ad.webp",
+                            "awayFlag": "al.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Sabato 2 Dicembre": [
+                        
+                        {
+                            "time": "09.00",
+                            "field": "Galan",
+                            "homeTeam": "Argentina",
+                            "awayTeam": "Messico",
+                            "homeFlag": "ar.webp",
+                            "awayFlag": "mx.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Italia",
+                            "awayTeam": "Burkina Faso",
+                            "homeFlag": "it.webp",
+                            "awayFlag": "bf.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "14.00",
+                            "field": "Galan",
+                            "homeTeam": "Giappone",
+                            "awayTeam": "Egitto",
+                            "homeFlag": "mn.webp",
+                            "awayFlag": "br.webp",
+                            "status": 0
+                        }
+                        
+                    ]
+                },
+                {
+                    "Domenica 3 Dicembre": [
+                        {
+                            "time": "10.30",
+                            "field": "Galan",
+                            "homeTeam": "Kuwait",
+                            "awayTeam": "Uzbekistan",
+                            "homeFlag": "kw.webp",
+                            "awayFlag": "uz.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Australia",
+                            "awayTeam": "Nuova Zelanda",
+                            "homeFlag": "au.webp",
+                            "awayFlag": "nz.webp",
+                            "status": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nona Giornata",
+            "from": "",
+            "to": "",
+            "daysA": [
+                {
+                    "Martedì 5 Dicembre": [
+                        {
+                            "time": "21.30",
+                            "field": "Galan",
+                            "homeTeam": "P. Nuova Guinea",
+                            "awayTeam": "Groenlandia",
+                            "homeFlag": "al.webp",
+                            "awayFlag": "nz.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Mercoledì 6 Dicembre": [
+                        {
+                            "time": "21.30",
+                            "field": "Paquito",
+                            "homeTeam": "Estonia",
+                            "awayTeam": "Venezuela",
+                            "homeFlag": "ee.webp",
+                            "awayFlag": "ve.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Venerdì 8 Dicembre": [
+                        {
+                            "time": "10.30",
+                            "field": "Galan",
+                            "homeTeam": "Costa Rica",
+                            "awayTeam": "Brasile",
+                            "homeFlag": "cr.webp",
+                            "awayFlag": "br.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Sabato 9 Dicembre": [
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Spagna",
+                            "awayTeam": "Isole Faroe",
+                            "homeFlag": "es.webp",
+                            "awayFlag": "fo.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Domenica 10 Dicembre": [
+                        {
+                            "time": "09.00",
+                            "field": "Galan",
+                            "homeTeam": "Senegal",
+                            "awayTeam": "Tagikistan",
+                            "homeFlag": "sn.webp",
+                            "awayFlag": "tj.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Mongolia",
+                            "awayTeam": "Danimarca",
+                            "homeFlag": "mn.webp",
+                            "awayFlag": "dk.webp",
+                            "status": 0
+                        }
+                    ]
+                }
+            ],
+            "daysB": [
+                {
+                    "Mercoledì 6 Dicembre": [
+                        {
+                            "time": "21.30",
+                            "field": "Galan",
+                            "homeTeam": "Messico",
+                            "awayTeam": "Egitto",
+                            "homeFlag": "mx.webp",
+                            "awayFlag": "eg.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Venerdì 8 Dicembre": [
+                        {
+                            "time": "10.30",
+                            "field": "Galan",
+                            "homeTeam": "Nuova Zelanda",
+                            "awayTeam": "Uzbekistan",
+                            "homeFlag": "nz.webp",
+                            "awayFlag": "uz.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Sabato 9 Dicembre": [
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Burkina Faso",
+                            "awayTeam": "Argentina",
+                            "homeFlag": "bf.webp",
+                            "awayFlag": "ar.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "15.30",
+                            "field": "Galan",
+                            "homeTeam": "Australia",
+                            "awayTeam": "Andorra",
+                            "homeFlag": "au.webp",
+                            "awayFlag": "ad.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Domenica 10 Dicembre": [
+                        {
+                            "time": "10.30",
+                            "field": "Galan",
+                            "homeTeam": "Giappone",
+                            "awayTeam": "Kuwait",
+                            "homeFlag": "jp.webp",
+                            "awayFlag": "kw.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "17.00",
+                            "field": "Paquito",
+                            "homeTeam": "Albania",
+                            "awayTeam": "Italia",
+                            "homeFlag": "al.webp",
+                            "awayFlag": "it.webp",
                             "status": 0
                         }
                     ]
