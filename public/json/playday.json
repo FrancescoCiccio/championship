@@ -1126,7 +1126,9 @@
                             "awayTeam": "Italia",
                             "homeFlag": "mx.webp",
                             "awayFlag": "it.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         }
                     ]
                 },
@@ -1161,7 +1163,9 @@
                             "awayTeam": "Egitto",
                             "homeFlag": "uz.webp",
                             "awayFlag": "eg.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         }
                     ]
                 }
