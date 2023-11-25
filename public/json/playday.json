@@ -1141,7 +1141,9 @@
                             "awayTeam": "Australia",
                             "homeFlag": "al.webp",
                             "awayFlag": "au.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         },
                         {
                             "time": "14.00",
@@ -1263,7 +1265,6 @@
                 },
                 {
                     "Sabato 2 Dicembre": [
-                        
                         {
                             "time": "09.00",
                             "field": "Galan",
@@ -1291,7 +1292,6 @@
                             "awayFlag": "br.webp",
                             "status": 0
                         }
-                        
                     ]
                 },
                 {
