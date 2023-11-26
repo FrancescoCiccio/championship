@@ -62,6 +62,10 @@
          
         </HeadlessTabPanels>
     </HeadlessTabGroup>
+
+    <div class="flex flex-col lg:container lg:mx-auto text-white text-lg">
+        * = Con una partita in meno
+    </div>
 </template>
 
 <script setup>
