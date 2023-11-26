@@ -63,7 +63,7 @@
         </HeadlessTabPanels>
     </HeadlessTabGroup>
 
-    <div class="flex flex-col lg:container lg:mx-auto text-white text-lg">
+    <div class="flex flex-col lg:max-w-lg lg:mx-auto text-white text-lg mt-8">
         * = Con una partita in meno
     </div>
 </template>
