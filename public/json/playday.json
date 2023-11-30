@@ -1047,7 +1047,9 @@
                             "awayTeam": "Senegal",
                             "homeFlag": "sn.webp",
                             "awayFlag": "es.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 1,
+                            "awayScore": 2
                         },
                         {
                             "time": "15.30",
@@ -1212,7 +1214,9 @@
                             "awayTeam": "Spagna",
                             "homeFlag": "ve.webp",
                             "awayFlag": "es.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         }
                     ]
                 },
