@@ -1306,7 +1306,9 @@
                             "awayTeam": "Egitto",
                             "homeFlag": "mn.webp",
                             "awayFlag": "br.webp",
-                            "status": 0
+                            "status": 1, 
+                            "homeScore": 2,
+                            "awayScore": 0
                         }
                     ]
                 },
