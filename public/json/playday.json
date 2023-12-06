@@ -1337,7 +1337,9 @@
                             "awayTeam": "Uzbekistan",
                             "homeFlag": "kw.webp",
                             "awayFlag": "uz.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         },
                         {
                             "time": "12.00",
