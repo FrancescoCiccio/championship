@@ -1383,7 +1383,9 @@
                             "awayTeam": "Venezuela",
                             "homeFlag": "ee.webp",
                             "awayFlag": "ve.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         }
                     ]
                 },
@@ -1446,7 +1448,9 @@
                             "awayTeam": "Egitto",
                             "homeFlag": "mx.webp",
                             "awayFlag": "eg.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 1,
+                            "awayScore": 2
                         }
                     ]
                 },
@@ -1481,7 +1485,9 @@
                             "awayTeam": "Andorra",
                             "homeFlag": "au.webp",
                             "awayFlag": "ad.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 2,
+                            "awayScore": 1
                         }
                     ]
                 },
