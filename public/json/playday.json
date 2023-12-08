@@ -1398,7 +1398,9 @@
                             "awayTeam": "Brasile",
                             "homeFlag": "cr.webp",
                             "awayFlag": "br.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 1,
+                            "awayScore": 2
                         }
                     ]
                 },
@@ -1424,7 +1426,9 @@
                             "awayTeam": "Tagikistan",
                             "homeFlag": "sn.webp",
                             "awayFlag": "tj.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         },
                         {
                             "time": "12.00",
@@ -1433,7 +1437,9 @@
                             "awayTeam": "Danimarca",
                             "homeFlag": "mn.webp",
                             "awayFlag": "dk.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 2,
+                            "awayScore": 1
                         }
                     ]
                 }
@@ -1463,7 +1469,9 @@
                             "awayTeam": "Uzbekistan",
                             "homeFlag": "nz.webp",
                             "awayFlag": "uz.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         }
                     ]
                 },
@@ -1500,7 +1508,9 @@
                             "awayTeam": "Kuwait",
                             "homeFlag": "jp.webp",
                             "awayFlag": "kw.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         },
                         {
                             "time": "17.00",
