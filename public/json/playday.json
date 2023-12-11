@@ -1675,6 +1675,147 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Undicesima Giornata",
+            "from": "",
+            "to": "",
+            "daysA": [
+                {
+                    "Lunedì 18 Dicembre": [
+                        {
+                            "time": "21.30",
+                            "field": "Paquito",
+                            "homeTeam": "Spagna",
+                            "awayTeam": "Danimarca",
+                            "homeFlag": "es.webp",
+                            "awayFlag": "dk.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Martedì 19 Dicembre": [
+                        {
+                            "time": "18.30",
+                            "field": "Paquito",
+                            "homeTeam": "P. Nuova Guinea",
+                            "awayTeam": "Mongolia",
+                            "homeFlag": "pg.webp",
+                            "awayFlag": "mo.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "21.30",
+                            "field": "Lebron",
+                            "homeTeam": "Estonia",
+                            "awayTeam": "Brasile",
+                            "homeFlag": "ee.webp",
+                            "awayFlag": "br.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "21.30",
+                            "field": "Paquito",
+                            "homeTeam": "Senegal",
+                            "awayTeam": "Isole Faroe",
+                            "homeFlag": "sn.webp",
+                            "awayFlag": "fo.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Mercoledì 20 Dicembre": [
+                        {
+                            "time": "20.00",
+                            "field": "Galan",
+                            "homeTeam": "Costa Rica",
+                            "awayTeam": "Groenlandia",
+                            "homeFlag": "cr.webp",
+                            "awayFlag": "gl.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "21.30",
+                            "field": "Paquito",
+                            "homeTeam": "Tagikistan",
+                            "awayTeam": "Venezuela",
+                            "homeFlag": "tj.webp",
+                            "awayFlag": "ve.webp",
+                            "status": 0
+                        }
+                    ]
+                }
+            ],
+            "daysB": [
+                {
+                    "Lunedì 18 Dicembre": [
+                        {
+                            "time": "18.30",
+                            "field": "Lebron",
+                            "homeTeam": "Nuova Zelanda",
+                            "awayTeam": "Giappone",
+                            "homeFlag": "nz.webp",
+                            "awayFlag": "jp.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "17.00",
+                            "field": "Paquito",
+                            "homeTeam": "Burkina Faso",
+                            "awayTeam": "Kuwait",
+                            "homeFlag": "bf.webp",
+                            "awayFlag": "kw.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Giovedì 21 Dicembre": [
+                        {
+                            "time": "21.30",
+                            "field": "Galan",
+                            "homeTeam": "Messico",
+                            "awayTeam": "Uzbekistan",
+                            "homeFlag": "mx.webp",
+                            "awayFlag": "uz.webp",
+                            "status": 0
+                        }
+                    ]
+                },
+                {
+                    "Venerdì 22 Dicembre": [
+                        {
+                            "time": "20.00",
+                            "field": "Paquito",
+                            "homeTeam": "Australia",
+                            "awayTeam": "Argentina",
+                            "homeFlag": "au.webp",
+                            "awayFlag": "ar.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "21.30",
+                            "field": "Paquito",
+                            "homeTeam": "Albania",
+                            "awayTeam": "Egitto",
+                            "homeFlag": "al.webp",
+                            "awayFlag": "eg.webp",
+                            "status": 0
+                        },
+                        {
+                            "time": "21.30",
+                            "field": "Lebron",
+                            "homeTeam": "Andorra",
+                            "awayTeam": "Italia",
+                            "homeFlag": "al.webp",
+                            "awayFlag": "it.webp",
+                            "status": 0
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
