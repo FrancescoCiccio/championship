@@ -136,7 +136,7 @@ const changePlayday = (playday) => {
 }
 
 
-var currentPlayday = ref(playdays[7]);
+var currentPlayday = ref(playdays[8]);
 
 onMounted(() => {
   ctx = gsap.context((self) => {
