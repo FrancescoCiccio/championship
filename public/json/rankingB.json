@@ -1,14 +1,14 @@
 {
-    "Italia": 20,
-    "Argentina": 17,
-    "Egitto": 20,
-    "Kuwait": 15,
-    "Uzbekistan": 18,
-    "Giappone": 15,
-    "Messico": 17,
+    "Italia": 23,
+    "Argentina": 20,
+    "Egitto": 23,
+    "Kuwait": 16,
+    "Uzbekistan": 19,
+    "Giappone": 17,
+    "Messico": 19,
     "Burkina Faso": 12,
     "Albania": 1,
     "Australia": 15,
-    "Andorra": 5,
-    "Nuova Zelanda": 7
+    "Andorra*": 5,
+    "Nuova Zelanda*": 7
 }
