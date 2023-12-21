@@ -1631,7 +1631,9 @@
                             "awayTeam": "Nuova Zelanda",
                             "homeFlag": "ad.webp",
                             "awayFlag": "nz.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         }
                     ]
                 },
@@ -1714,7 +1716,9 @@
                             "awayTeam": "Danimarca",
                             "homeFlag": "es.webp",
                             "awayFlag": "dk.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         }
                     ]
                 },
@@ -1727,7 +1731,9 @@
                             "awayTeam": "Mongolia",
                             "homeFlag": "pg.webp",
                             "awayFlag": "mo.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
                         },
                         {
                             "time": "21.30",
@@ -1736,7 +1742,9 @@
                             "awayTeam": "Brasile",
                             "homeFlag": "ee.webp",
                             "awayFlag": "br.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         },
                         {
                             "time": "21.30",
@@ -1745,7 +1753,9 @@
                             "awayTeam": "Isole Faroe",
                             "homeFlag": "sn.webp",
                             "awayFlag": "fo.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 1,
+                            "awayScore": 2
                         }
                     ]
                 },
@@ -1767,7 +1777,9 @@
                             "awayTeam": "Venezuela",
                             "homeFlag": "tj.webp",
                             "awayFlag": "ve.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         }
                     ]
                 }
@@ -1782,7 +1794,9 @@
                             "awayTeam": "Giappone",
                             "homeFlag": "nz.webp",
                             "awayFlag": "jp.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         },
                         {
                             "time": "17.00",
@@ -1791,7 +1805,9 @@
                             "awayTeam": "Kuwait",
                             "homeFlag": "bf.webp",
                             "awayFlag": "kw.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 0,
+                            "awayScore": 3
                         }
                     ]
                 },
