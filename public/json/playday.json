@@ -1768,7 +1768,9 @@
                             "awayTeam": "Groenlandia",
                             "homeFlag": "cr.webp",
                             "awayFlag": "gl.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 2,
+                            "awayScore": 1
                         },
                         {
                             "time": "21.30",
