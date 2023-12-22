@@ -1844,7 +1844,9 @@
                             "awayTeam": "Egitto",
                             "homeFlag": "al.webp",
                             "awayFlag": "eg.webp",
-                            "status": 0
+                            "status": 1,
+                            "homeScore": 1,
+                            "awayScore": 2
                         },
                         {
                             "time": "21.30",
