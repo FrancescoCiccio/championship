@@ -167,10 +167,10 @@
                         <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
                             <div class="flex flex-col">
                                 <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    13 Gen. 15.30
+                                    ???
                                 </div>
                                 <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Galan
+                                    ???
                                 </div>
                             </div>
                             <div class="flex flex-col text-2xl lg:text-3xl">
@@ -187,10 +187,10 @@
                         <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
                             <div class="flex flex-col">
                                 <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    13 Gen. 10.00
+                                    ???
                                 </div>
                                 <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Galan
+                                    ???
                                 </div>
                             </div>
                             <div class="flex flex-col text-2xl lg:text-3xl">
