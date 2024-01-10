@@ -580,8 +580,8 @@
                             </div>
                             <div class="flex flex-col text-2xl lg:text-3xl">
                                 <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
-                                    Tag o N.Zela
+                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/tj.webp'" alt="">
+                                    Tagikistan
                                 </div>
                                 <div class="flex items-center gap-2">
                                     <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
