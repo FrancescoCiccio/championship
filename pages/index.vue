@@ -496,7 +496,7 @@
                         <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
                             <div class="flex flex-col">
                                 <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    13 Gen. 14.00
+                                    Played
                                 </div>
                                 <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
                                     Galan
@@ -510,6 +510,15 @@
                                 <div class="flex items-center gap-2">
                                     <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/nz.webp'" alt="">
                                     New Zeland
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
+                                <div>
+                                    2
+                                </div>
+                                <div>
+                                    0
                                 </div>
                             </div>
                         </div>
