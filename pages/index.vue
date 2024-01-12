@@ -472,6 +472,14 @@
                                     Albania
                                 </div>
                             </div>
+                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
+                                <div>
+                                    1
+                                </div>
+                                <div>
+                                    2
+                                </div>
+                            </div>
                         </div>
                         <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
                             <div class="flex flex-col">
@@ -560,8 +568,8 @@
                             </div>
                             <div class="flex flex-col text-2xl lg:text-3xl">
                                 <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
-                                    Est o Alb
+                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/al.webp'" alt="">
+                                    Albania
                                 </div>
                                 <div class="flex items-center gap-2">
                                     <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
