@@ -332,6 +332,14 @@
                                     P. Nuova Guinea
                                 </div>
                             </div>
+                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
+                                <div>
+                                    2
+                                </div>
+                                <div>
+                                    0
+                                </div>
+                            </div>
                         </div>
                         <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
                             <div class="flex flex-col">
@@ -411,8 +419,8 @@
                                     Gia o Sen
                                 </div>
                                 <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
-                                    Kuw o Papua
+                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/kw.webp'" alt="">
+                                    Kuwait
                                 </div>
                             </div>
                         </div>
