@@ -199,10 +199,10 @@
                         <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
                             <div class="flex flex-col">
                                 <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    ???
+                                    Dom. 21 Gen.
                                 </div>
                                 <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    ???
+                                    10:30
                                 </div>
                             </div>
                             <div class="flex flex-col text-2xl lg:text-3xl">
@@ -219,10 +219,10 @@
                         <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
                             <div class="flex flex-col">
                                 <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    ???
+                                    Dom. 21 Gen.
                                 </div>
                                 <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    ???
+                                    18:30
                                 </div>
                             </div>
                             <div class="flex flex-col text-2xl lg:text-3xl">
@@ -310,6 +310,14 @@
                                 <div class="flex items-center gap-2">
                                     <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/se.webp'" alt="">
                                     Senegal
+                                </div>
+                            </div>
+                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
+                                <div>
+                                    2
+                                </div>
+                                <div>
+                                    0
                                 </div>
                             </div>
                         </div>
@@ -407,16 +415,16 @@
                         <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
                             <div class="flex flex-col">
                                 <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    ???
+                                    Dom. 21 Gen.
                                 </div>
                                 <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    ???
+                                    15:30
                                 </div>
                             </div>
                             <div class="flex flex-col text-2xl lg:text-3xl">
                                 <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
-                                    Gia o Sen
+                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/jp.webp'" alt="">
+                                    Giappone
                                 </div>
                                 <div class="flex items-center gap-2">
                                     <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/kw.webp'" alt="">
@@ -427,10 +435,10 @@
                         <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
                             <div class="flex flex-col">
                                 <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    ???
+                                    Sabato 20 
                                 </div>
                                 <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    ???
+                                    10:30
                                 </div>
                             </div>
                             <div class="flex flex-col text-2xl lg:text-3xl">
@@ -605,6 +613,14 @@
                                     Burkina Faso
                                 </div>
                             </div>
+                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
+                                <div>
+                                    0
+                                </div>
+                                <div>
+                                    2
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -616,10 +632,10 @@
                         <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
                             <div class="flex flex-col">
                                 <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    ???
+                                    Dom. 21 Gen.
                                 </div>
                                 <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    ???
+                                    12:00
                                 </div>
                             </div>
                             <div class="flex flex-col text-2xl lg:text-3xl">
@@ -636,10 +652,10 @@
                         <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
                             <div class="flex flex-col">
                                 <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    ???
+                                    Dom. 21 Gen.
                                 </div>
                                 <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    ???
+                                    17:00
                                 </div>
                             </div>
                             <div class="flex flex-col text-2xl lg:text-3xl">
@@ -648,8 +664,8 @@
                                     Tagikistan
                                 </div>
                                 <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
-                                    Isole o Burk
+                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/bf.webp'" alt="">
+                                    Burkina Faso
                                 </div>
                             </div>
                         </div>
