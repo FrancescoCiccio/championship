@@ -215,6 +215,14 @@
                                     Argentina
                                 </div>
                             </div>
+                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
+                                <div>
+                                    0
+                                </div>
+                                <div>
+                                    2
+                                </div>
+                            </div>
                         </div>
                         <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
                             <div class="flex flex-col">
@@ -233,6 +241,14 @@
                                 <div class="flex items-center gap-2">
                                     <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/eg.webp'" alt="">
                                     Egitto
+                                </div>
+                            </div>
+                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
+                                <div>
+                                    1
+                                </div>
+                                <div>
+                                    3
                                 </div>
                             </div>
                         </div>
@@ -254,12 +270,12 @@
                             </div>
                             <div class="flex flex-col text-2xl lg:text-3xl">
                                 <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
-                                    1o/2o Posto
+                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/ar.webp'" alt="">
+                                    Argentina
                                 </div>
                                 <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
-                                    1o/2o Posto
+                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/eg.webp'" alt="">
+                                    Egitto
                                 </div>
                             </div>
                         </div>
@@ -274,12 +290,12 @@
                             </div>
                             <div class="flex flex-col text-2xl lg:text-3xl">
                                 <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
-                                    3o/4o Posto
+                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/it.webp'" alt="">
+                                    Italia
                                 </div>
                                 <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
-                                    3o/4o Posto
+                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/uz.webp'" alt="">
+                                    Uzbekistan
                                 </div>
                             </div>
                         </div>
@@ -431,6 +447,14 @@
                                     Kuwait
                                 </div>
                             </div>
+                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
+                                <div>
+                                    2
+                                </div>
+                                <div>
+                                    0
+                                </div>
+                            </div>
                         </div>
                         <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
                             <div class="flex flex-col">
@@ -449,6 +473,14 @@
                                 <div class="flex items-center gap-2">
                                     <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/cr.webp'" alt="">
                                     Costa Rica
+                                </div>
+                            </div>
+                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
+                                <div>
+                                    2
+                                </div>
+                                <div>
+                                    0
                                 </div>
                             </div>
                         </div>
@@ -470,12 +502,12 @@
                             </div>
                             <div class="flex flex-col text-2xl lg:text-3xl">
                                 <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
-                                    1o/2o Posto
+                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/mx.webp'" alt="">
+                                    Giappone
                                 </div>
                                 <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
-                                    1o/2o Posto
+                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/jp.webp'" alt="">
+                                    Messico
                                 </div>
                             </div>
                         </div>
@@ -490,12 +522,12 @@
                             </div>
                             <div class="flex flex-col text-2xl lg:text-3xl">
                                 <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
-                                    3o/4o Posto
+                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/cr.webp'" alt="">
+                                    Costa Rica
                                 </div>
                                 <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
-                                    3o/4o Posto
+                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/kw.webp'" alt="">
+                                    Kuwait
                                 </div>
                             </div>
                         </div>
@@ -648,6 +680,14 @@
                                     Spagna
                                 </div>
                             </div>
+                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
+                                <div>
+                                    2
+                                </div>
+                                <div>
+                                    1
+                                </div>
+                            </div>
                         </div>
                         <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
                             <div class="flex flex-col">
@@ -666,6 +706,14 @@
                                 <div class="flex items-center gap-2">
                                     <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/bf.webp'" alt="">
                                     Burkina Faso
+                                </div>
+                            </div>
+                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
+                                <div>
+                                    2
+                                </div>
+                                <div>
+                                    0
                                 </div>
                             </div>
                         </div>
@@ -687,12 +735,12 @@
                             </div>
                             <div class="flex flex-col text-2xl lg:text-3xl">
                                 <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
-                                    1o/2o Posto
+                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/al.webp'" alt="">
+                                    Albania
                                 </div>
                                 <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
-                                    1o/2o Posto
+                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/tj.webp'" alt="">
+                                    Tagikistan
                                 </div>
                             </div>
                         </div>
@@ -707,12 +755,12 @@
                             </div>
                             <div class="flex flex-col text-2xl lg:text-3xl">
                                 <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
-                                    3o/4o Posto
+                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/es.webp'" alt="">
+                                    Spagna
                                 </div>
                                 <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/.webp'" alt="">
-                                    3o/4o Posto
+                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/bf.webp'" alt="">
+                                    Burkina Faso
                                 </div>
                             </div>
                         </div>
