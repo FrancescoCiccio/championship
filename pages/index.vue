@@ -5,10 +5,10 @@
     <section class="h-[40vh] rounded-b-2xl border-b-2 border-solid border-white/10 text-white overflow-hidden mask flex items-end p-4">
         <div class="flex flex-col container mx-auto">
             <h3>
-                Footballite - Fase finale
+                Footballite
             </h3>
             <h1>
-                Villa Paola - Mundialito
+                Vivè - Mundialito
             </h1>
         </div>
     </section>
@@ -16,6 +16,58 @@
     <RowScroll />
     
 
+    <div class="my-4 flex px-4 lg:px-0 container mx-auto">
+        <HeadlessMenu as="div" class="relative">
+            <div>
+                <HeadlessMenuButton
+                  class="btn flex gap-4"
+                >
+                    {{ currentPlayday.name }}
+                    
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.41 8.59L12 13.17L16.59 8.59L18 10L12 16L6 10L7.41 8.59Z" fill="#41BFC9"/>
+                    </svg>
+                </HeadlessMenuButton>
+            </div>
+
+            <transition
+                enter-active-class="transition duration-100 ease-out"
+                enter-from-class="transform scale-95 opacity-0"
+                enter-to-class="transform scale-100 opacity-100"
+                leave-active-class="transition duration-75 ease-in"
+                leave-from-class="transform scale-100 opacity-100"
+                leave-to-class="transform scale-95 opacity-0"
+            >
+                <HeadlessMenuItems
+                    class="absolute left-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-secondary ring-opacity-5 focus:outline-none z-50 max-h-[200px] overflow-y-scroll"
+                >
+                    <HeadlessMenuItem v-for="playday in playdays" :key="playday.name">
+                        <button
+                            :class="[
+                           'text-gray-900',
+                            'group flex flex-col w-full items-start rounded-md px-2 py-2 text-sm',
+                            ]"
+                            @click="changePlayday(playday)"
+                        >
+                            {{ playday.name }}
+                            <div class="flex text-xs text-slate-400 gap-1">
+                                
+                                <span>
+                                    {{ ' ' +  playday.from + ' ' }} 
+                                </span>
+                                <span>
+                                    -
+                                </span>
+                                <span>
+                                    {{  playday.to  }}
+                                </span>
+                            </div>
+                        </button>
+                    </HeadlessMenuItem>
+                </HeadlessMenuItems>
+            </transition>
+        </HeadlessMenu> 
+    </div>
 
 
     <HeadlessTabGroup>
@@ -33,739 +85,14 @@
                         : 'text-white/50 hover:bg-white/[0.12] hover:text-white',
                     ]"
                 >
-                    Gold
-                </button>
-            </HeadlessTab>
-            <HeadlessTab
-                as="template"
-                v-slot="{ selected }"
-            >
-                <button
-                    :class="[
-                    'w-full rounded-lg py-2.5 text-sm font-medium leading-5',
-                    'ring-white ring-opacity-60 ring-offset-2 ring-offset-secondary focus:outline-none focus:ring-2',
-                    selected
-                        ? 'bg-white shadow text-primary'
-                        : 'text-white/50 hover:bg-white/[0.12] hover:text-white',
-                    ]"
-                >
-                    Silver
-                </button>
-            </HeadlessTab>
-            <HeadlessTab
-                as="template"
-                v-slot="{ selected }"
-            >
-                <button
-                    :class="[
-                    'w-full rounded-lg py-2.5 text-sm font-medium leading-5',
-                    'ring-white ring-opacity-60 ring-offset-2 ring-offset-secondary focus:outline-none focus:ring-2',
-                    selected
-                        ? 'bg-white shadow text-primary'
-                        : 'text-white/50 hover:bg-white/[0.12] hover:text-white',
-                    ]"
-                >
-                    Bronze
+                    Unico Girone
                 </button>
             </HeadlessTab>
         </HeadlessTabList>
 
         <HeadlessTabPanels class="mt-2">
             <HeadlessTabPanel class="my-4 px-4 container mx-auto lg:px-0 lg:grid lg:grid-cols-3 lg:gap-4">
-                <div class="cardgame my-2 lg:my-8 lg:col-span-1">
-                    <div class="p-4 bg-secondary text-white rounded-tr-xl max-w-[80%]">
-                        QUARTI DI FINALE
-                    </div>
-                    <div class="p-2 border-2 border-secondary rounded-xl rounded-tl-none flex flex-col gap-2">
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    Played
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Galan
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/it.webp'" alt="">
-                                    Italia
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/br.webp'" alt="">
-                                    Brasile
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    2
-                                </div>
-                                <div>
-                                    0
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    13 Gen. 10.00
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Galan
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/ar.webp'" alt="">
-                                    Argentina
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/dk.webp'" alt="">
-                                    Danimarca
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    2
-                                </div>
-                                <div>
-                                    0
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    10 Gen. 21.30
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Galan
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/uz.webp'" alt="">
-                                    Uzbekistan
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/ve.webp'" alt="">
-                                    Venezuela
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    2
-                                </div>
-                                <div>
-                                    0
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    13 Gen. 17.00
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Galan
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/eg.webp'" alt="">
-                                    Egitto
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/gl.webp'" alt="">
-                                    Groenlandia
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    2
-                                </div>
-                                <div>
-                                    0
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cardgame my-2 lg:my-8 lg:col-span-1">
-                    <div class="p-4 bg-secondary text-white rounded-tr-xl max-w-[80%]">
-                        SEMIFINALI
-                    </div>
-                    <div class="p-2 border-2 border-secondary rounded-xl rounded-tl-none flex flex-col gap-2">
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    Dom. 21 Gen.
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    10:30
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/it.webp'" alt="">
-                                    Italia
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/ar.webp'" alt="">
-                                    Argentina
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    0
-                                </div>
-                                <div>
-                                    2
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    Dom. 21 Gen.
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    18:30
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/uz.webp'" alt="">
-                                    Uzbekistan
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/eg.webp'" alt="">
-                                    Egitto
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    1
-                                </div>
-                                <div>
-                                    3
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cardgame my-2 lg:my-8 lg:col-span-1">
-                    <div class="p-4 bg-secondary text-white rounded-tr-xl max-w-[80%]">
-                        FINALI
-                    </div>
-                    <div class="p-2 border-2 border-secondary rounded-xl rounded-tl-none flex flex-col gap-2">
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    ???
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Galan
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/ar.webp'" alt="">
-                                    Argentina
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/eg.webp'" alt="">
-                                    Egitto
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    ???
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Galan
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/it.webp'" alt="">
-                                    Italia
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/uz.webp'" alt="">
-                                    Uzbekistan
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </HeadlessTabPanel>
-
-            <HeadlessTabPanel class="my-4 px-4 container mx-auto lg:px-0 lg:grid lg:grid-cols-3 lg:gap-4">
-                <div class="cardgame my-2 lg:my-8 lg:col-span-1">
-                    <div class="p-4 bg-secondary text-white rounded-tr-xl max-w-[80%]">
-                        QUARTI DI FINALE
-                    </div>
-                    <div class="p-2 border-2 border-secondary rounded-xl rounded-tl-none flex flex-col gap-2">
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    14 Gen. 10.30
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Paquito
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/jp.webp'" alt="">
-                                    Giappone
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/se.webp'" alt="">
-                                    Senegal
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    2
-                                </div>
-                                <div>
-                                    0
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    14 Gen. 12.00
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Paquito
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/kw.webp'" alt="">
-                                    Kuwait
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/pg.webp'" alt="">
-                                    P. Nuova Guinea
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    2
-                                </div>
-                                <div>
-                                    0
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    12 Gen. 20.00
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Galan
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/mx.webp'" alt="">
-                                    Messico
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/mo.webp'" alt="">
-                                    Mongolia
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    2
-                                </div>
-                                <div>
-                                    1
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    14 Gen. 17.00
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Galan
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/au.webp'" alt="">
-                                    Australia
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/cr.webp'" alt="">
-                                    Costa Rica
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    1
-                                </div>
-                                <div>
-                                    2
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cardgame my-2 lg:my-8 lg:col-span-1">
-                    <div class="p-4 bg-secondary text-white rounded-tr-xl max-w-[80%]">
-                        SEMIFINALI
-                    </div>
-                    <div class="p-2 border-2 border-secondary rounded-xl rounded-tl-none flex flex-col gap-2">
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    Dom. 21 Gen.
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    15:30
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/jp.webp'" alt="">
-                                    Giappone
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/kw.webp'" alt="">
-                                    Kuwait
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    2
-                                </div>
-                                <div>
-                                    0
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    Sabato 20 
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    10:30
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/mx.webp'" alt="">
-                                    Messico
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/cr.webp'" alt="">
-                                    Costa Rica
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    2
-                                </div>
-                                <div>
-                                    0
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cardgame my-2 lg:my-8 lg:col-span-1">
-                    <div class="p-4 bg-secondary text-white rounded-tr-xl max-w-[80%]">
-                        FINALI
-                    </div>
-                    <div class="p-2 border-2 border-secondary rounded-xl rounded-tl-none flex flex-col gap-2">
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    ???
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Galan
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/mx.webp'" alt="">
-                                    Giappone
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/jp.webp'" alt="">
-                                    Messico
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    ???
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Galan
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/cr.webp'" alt="">
-                                    Costa Rica
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/kw.webp'" alt="">
-                                    Kuwait
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </HeadlessTabPanel>
-
-            <HeadlessTabPanel class="my-4 px-4 container mx-auto lg:px-0 lg:grid lg:grid-cols-3 lg:gap-4">
-                <div class="cardgame my-2 lg:my-8 lg:col-span-1">
-                    <div class="p-4 bg-secondary text-white rounded-tr-xl max-w-[80%]">
-                        QUARTI DI FINALE
-                    </div>
-                    <div class="p-2 border-2 border-secondary rounded-xl rounded-tl-none flex flex-col gap-2">
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    12 Gen. 21.30
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Paquito
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/ee.webp'" alt="">
-                                    Estonia
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/al.webp'" alt="">
-                                    Albania
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    1
-                                </div>
-                                <div>
-                                    2
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    13 Gen. 12.00
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Galan
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/es.webp'" alt="">
-                                    Spagna
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/ad.webp'" alt="">
-                                    Andorra
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    2
-                                </div>
-                                <div>
-                                    1
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    Played
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Galan
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/tj.webp'" alt="">
-                                    Tagikistan
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/nz.webp'" alt="">
-                                    New Zeland
-                                </div>
-                            </div>
-
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    2
-                                </div>
-                                <div>
-                                    0
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    14 Gen. 18.30
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Galan
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/fo.webp'" alt="">
-                                    Isole faroe
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/bf.webp'" alt="">
-                                    Burkina Faso
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    0
-                                </div>
-                                <div>
-                                    2
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cardgame my-2 lg:my-8 lg:col-span-1">
-                    <div class="p-4 bg-secondary text-white rounded-tr-xl max-w-[80%]">
-                        SEMIFINALI
-                    </div>
-                    <div class="p-2 border-2 border-secondary rounded-xl rounded-tl-none flex flex-col gap-2">
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    Dom. 21 Gen.
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    12:00
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/al.webp'" alt="">
-                                    Albania
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/es.webp'" alt="">
-                                    Spagna
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    2
-                                </div>
-                                <div>
-                                    1
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    Dom. 21 Gen.
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    17:00
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/tj.webp'" alt="">
-                                    Tagikistan
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/bf.webp'" alt="">
-                                    Burkina Faso
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl p-1 bg-primary rounded-sm items-center">
-                                <div>
-                                    2
-                                </div>
-                                <div>
-                                    0
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cardgame my-2 lg:my-8 lg:col-span-1">
-                    <div class="p-4 bg-secondary text-white rounded-tr-xl max-w-[80%]">
-                        FINALI
-                    </div>
-                    <div class="p-2 border-2 border-secondary rounded-xl rounded-tl-none flex flex-col gap-2">
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    ???
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Galan
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/al.webp'" alt="">
-                                    Albania
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/tj.webp'" alt="">
-                                    Tagikistan
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 rounded-lg bg-[#277379] flex items-center gap-2">
-                            <div class="flex flex-col">
-                                <div class="flex flex-col items-center p-2 px-4 bg-primary rounded-md relative z-10">
-                                    ???
-                                </div>
-                                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-1 relative">
-                                    Galan
-                                </div>
-                            </div>
-                            <div class="flex flex-col text-2xl lg:text-3xl">
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/es.webp'" alt="">
-                                    Spagna
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <img class="w-4 h-4 rounded-full object-cover" :src="'/images/flags/bf.webp'" alt="">
-                                    Burkina Faso
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <CardGame v-for="(day, index) in currentPlayday.daysA" :key="'day-' + index" :day="day"></CardGame>
             </HeadlessTabPanel>
         </HeadlessTabPanels>
     </HeadlessTabGroup>
@@ -778,7 +105,7 @@
 
 import { onMounted, onUnmounted, ref } from 'vue';
 import { gsap } from "gsap";
-import { playdays} from "@/public/json/playday.json";
+import { playdays } from "@/public/json/playday.json";
 
 
 const main = ref();
@@ -789,7 +116,7 @@ const changePlayday = (playday) => {
 }
 
 
-var currentPlayday = ref(playdays[10]);
+var currentPlayday = ref(playdays[0]);
 
 onMounted(() => {
   ctx = gsap.context((self) => {

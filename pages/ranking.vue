@@ -28,38 +28,16 @@
                         : 'text-white/50 hover:bg-white/[0.12] hover:text-white',
                     ]"
                 >
-                    Girone A
+                    Girone Unico
                 </button>
             </HeadlessTab>
-            <HeadlessTab
-                as="template"
-                v-slot="{ selected }"
-            >
-                <button
-                    :class="[
-                    'w-full rounded-lg py-2.5 text-sm font-medium leading-5',
-                    'ring-white ring-opacity-60 ring-offset-2 ring-offset-secondary focus:outline-none focus:ring-2',
-                    selected
-                        ? 'bg-white shadow text-primary'
-                        : 'text-white/50 hover:bg-white/[0.12] hover:text-white',
-                    ]"
-                >
-                    Girone B
-                </button>
-            </HeadlessTab>
+        
         </HeadlessTabList>
 
         <HeadlessTabPanels class="mt-2 lg:max-w-xl lg:mx-auto">
             <HeadlessTabPanel class="">
                 <RankingRow v-for="(team, index) in rankingA" :key="index" :team="team" :index="index" />
             </HeadlessTabPanel>
-
-
-            <HeadlessTabPanel class="">
-                <RankingRow v-for="(team, index) in rankingB" :key="index" :team="team" :index="index" />
-            </HeadlessTabPanel>
-
-         
         </HeadlessTabPanels>
     </HeadlessTabGroup>
 
