@@ -14,8 +14,8 @@
                             "awayTeam": "Serbia",
                             "homeFlag": "it.webp",
                             "awayFlag": "se.webp",
-                            "status": 0,
-                            "homeScore": 0,
+                            "status": 1,
+                            "homeScore": 3,
                             "awayScore": 0
                         },
                         {
@@ -25,8 +25,8 @@
                             "awayTeam": "Congo",
                             "homeFlag": "br.webp",
                             "awayFlag": "co.webp",
-                            "status": 0,
-                            "homeScore": 0,
+                            "status": 1,
+                            "homeScore": 3,
                             "awayScore": 0
                         },
                         {
@@ -36,8 +36,8 @@
                             "awayTeam": "Argentina",
                             "homeFlag": "mn.webp",
                             "awayFlag": "ar.webp",
-                            "status": 0,
-                            "homeScore": 0,
+                            "status": 1,
+                            "homeScore": 3,
                             "awayScore": 0
                         },
                         {
@@ -47,8 +47,8 @@
                             "awayTeam": "Cuba",
                             "homeFlag": "pt.webp",
                             "awayFlag": "cu.webp",
-                            "status": 0,
-                            "homeScore": 0,
+                            "status": 1,
+                            "homeScore": 3,
                             "awayScore": 0
                         },
                         {
@@ -58,9 +58,9 @@
                             "awayTeam": "Camerun",
                             "homeFlag": "jm.webp",
                             "awayFlag": "cm.webp",
-                            "status": 0,
-                            "homeScore": 0,
-                            "awayScore": 0
+                            "status": 1,
+                            "homeScore": 1,
+                            "awayScore": 2
                         },
                         {
                             "time": "12.00",
@@ -69,8 +69,8 @@
                             "awayTeam": "Spagna",
                             "homeFlag": "th.webp",
                             "awayFlag": "es.webp",
-                            "status": 0,
-                            "homeScore": 0,
+                            "status": 1,
+                            "homeScore": 3,
                             "awayScore": 0
                         }
                     ]
