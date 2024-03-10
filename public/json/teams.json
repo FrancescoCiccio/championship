@@ -1,119 +1,29 @@
 {
-    "Albania": {
-        "name": "Albania",
-        "flag": "al.webp",
-        "players": [
-            {
-                "name": "Carella",
-                "nickname": "Kosta",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Filippo",
-                "nickname": "Contrusi",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Cristian",
-                "nickname": "Corvutto",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Paolo",
-                "nickname": "Pastore",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            }
-        ]
-    },
-    "Andorra": {
-        "name": "Andorra",
-        "flag": "ad.webp",
-        "players": [
-            {
-                "name": "Vitale",
-                "nickname": "Alessandro",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Christian",
-                "nickname": "La Penna",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Giandomenico",
-                "nickname": "Carbonara",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Tommaso",
-                "nickname": "Florio",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            }
-        ]
-    },
     "Argentina": {
         "name": "Argentina",
         "flag": "ar.webp",
         "players": [
             {
-                "name": "?",
-                "nickname": "La Barberas",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Paparella",
-                "nickname": "Claudio",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Alessio",
-                "nickname": "Pellegrino",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
                 "name": "Simone",
-                "nickname": "Areña",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            }
-        ]
-    },
-    "Australia": {
-        "name": "Australia",
-        "flag": "au.webp",
-        "players": [
-            {
-                "name": "Angelo",
-                "nickname": "Vinci",
+                "nickname": "Quarta",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Caggianelli",
-                "nickname": "Gianfranco",
+                "name": "Nicolò",
+                "nickname": "Ragone",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Zuffo",
-                "nickname": "Francesco",
+                "name": "Mario",
+                "nickname": "Alberga",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Nicolas",
-                "nickname": "Mondelli",
+                "name": "Francesco",
+                "nickname": "Campagna",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             }
@@ -124,239 +34,35 @@
         "flag": "br.webp",
         "players": [
             {
-                "name": "Gennaro",
-                "nickname": "Pugliese",
+                "name": "Massimo",
+                "nickname": "Fortunato",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Giuseppe",
-                "nickname": "D'Onghia",
+                "name": "Giacinto",
+                "nickname": "Carvutto",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Giuseppe",
-                "nickname": "Frustaci",
+                "name": "Cristian",
+                "nickname": "Carvutto",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Schettini",
-                "nickname": "Pietro",
+                "name": "Filippo",
+                "nickname": "Contursi",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             }
         ]
     },
-    "Burkina Faso": {
-        "name": "Burkina Faso",
-        "flag": "bf.webp",
+    "Camerun": {
+        "name": "Camerun",
+        "flag": "cm.webp",
         "players": [
-            {
-                "name": "Vacca",
-                "nickname": "Mirko",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Camposeo",
-                "nickname": "Fabio",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Giandomenico",
-                "nickname": "Falino",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Gramegna",
-                "nickname": "Ciccio",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            }
-        ]
-    },
-    "Costa Rica": {
-        "name": "Costa Rica",
-        "flag": "cr.webp",
-        "players": [
-            {
-                "name": "Francesco",
-                "nickname": "Mazzy",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Novelli",
-                "nickname": "Giacomo",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Consalvo",
-                "nickname": "Francesco",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Luca",
-                "nickname": "De Santis",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            }
-        ]
-    },
-    "Danimarca": {
-        "name": "Danimarca",
-        "flag": "dk.webp",
-        "players": [
-            {
-                "name": "Dario",
-                "nickname": "Bitetto",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Donnarumma",
-                "nickname": "Dario",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Martino",
-                "nickname": "Cito",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Francesco",
-                "nickname": "Sciatti",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            }
-        ]
-    },
-    "Egitto": {
-        "name": "Egitto",
-        "flag": "eg.webp",
-        "players": [
-            {
-                "name": "Roberto",
-                "nickname": "Natile",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Giuseppe",
-                "nickname": "Cairo",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Colaiemma",
-                "nickname": "Vittorio",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Antonio",
-                "nickname": "Di Girolamo",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            }
-        ]
-    },
-    "Estonia": {
-        "name": "Estonia",
-        "flag": "es.webp",
-        "players": [
-            {
-                "name": "Racano",
-                "nickname": "Giacinto",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Longobardo",
-                "nickname": "Luca",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Dario",
-                "nickname": "Colapinto",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            }
-        ]
-    },
-    "Giappone": {
-        "name": "Giappone",
-        "flag": "jp.webp",
-        "players": [
-            {
-                "name": "Domenico",
-                "nickname": "Di Bari",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "?",
-                "nickname": "Tisci",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Michele",
-                "nickname": "Mazzarano",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            }
-        ]
-    },
-    "Groenlandia": {
-        "name": "Groenlandia",
-        "flag": "gl.webp",
-        "players": [
-            {
-                "name": "Giuseppe",
-                "nickname": "Campagna",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Davide",
-                "nickname": "Dell'Anna",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Giuseppe",
-                "nickname": "Ferrara",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Pietro",
-                "nickname": "Schettini",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            }
-        ]
-    },
-    "Isole Faroe": {
-        "name": "Isole Faroe",
-        "flag": "fo.webp",
-        "players": [
-            {
-                "name": "Tonio",
-                "nickname": "Troiani",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
             {
                 "name": "Stefano",
                 "nickname": "Cannito",
@@ -364,14 +70,110 @@
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Luca",
-                "nickname": "Schiraldi",
+                "name": "Antonio",
+                "nickname": "Troiani",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Claudio",
-                "nickname": "Erroi",
+                "name": "Rino",
+                "nickname": "Terrafino",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "Nicola",
+                "nickname": "Solenne",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            }
+        ]
+    },
+    "Congo": {
+        "name": "Congo",
+        "flag": "co.webp",
+        "players": [
+            {
+                "name": "Kosta",
+                "nickname": "Carella",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "Nicola",
+                "nickname": "Marinelli",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "Marco",
+                "nickname": "Labellarte",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "Domenico",
+                "nickname": "Punzi",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            }
+        ]
+    },
+    "Cuba": {
+        "name": "Cuba",
+        "flag": "cu.webp",
+        "players": [
+            {
+                "name": "Gianni",
+                "nickname": "Difino",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "",
+                "nickname": "Diniso",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "",
+                "nickname": "Romano",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "",
+                "nickname": "Lattanzio",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            }
+        ]
+    },
+    "Giamaica": {
+        "name": "Giamaica",
+        "flag": "jm.webp",
+        "players": [
+            {
+                "name": "Nanni",
+                "nickname": "De Cesare",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "Giuseppe",
+                "nickname": "Malinconico",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "Nicola",
+                "nickname": "Pastore",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "Nicolas",
+                "nickname": "De Noia",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             }
@@ -382,57 +184,15 @@
         "flag": "it.webp",
         "players": [
             {
-                "name": "Francesco",
-                "nickname": "Chieppa",
+                "name": "Antonio",
+                "nickname": "Fiore",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Bruno",
-                "nickname": "Gigi",
+                "name": "Antonio",
+                "nickname": "Nitti",
                 "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Gianfranco",
-                "nickname": "Chienchi",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Angelo",
-                "nickname": "Bellomo",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            }
-        ]
-    },
-    "Messico": {
-        "name": "Messico",
-        "flag": "mx.webp",
-        "players": [
-            {
-                "name": "Angelo",
-                "nickname": "Difry",
-                "position": "SX",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Simone",
-                "nickname": "Gismy",
-                "position": "DX",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Sassanelli",
-                "nickname": "Antonio",
-                "position": "SX",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Marco",
-                "nickname": "Boraccesi",
-                "position": "DX",
                 "avatar": "/images/players/unknown.png"
             }
         ]
@@ -442,135 +202,87 @@
         "flag": "mn.webp",
         "players": [
             {
-                "name": "Leo",
-                "nickname": "Sket",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
                 "name": "Vincenzo",
-                "nickname": "Zaltini",
+                "nickname": "Lagreca",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Vincenzo",
-                "nickname": "Paparella",
+                "name": "Francesco",
+                "nickname": "Lagreca",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "Mimmo",
+                "nickname": "Carone",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "Alessio",
+                "nickname": "Salierno",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             }
         ]
     },
-    "Nuova Zelanda": {
-        "name": "Nuova Zelanda",
-        "flag": "nz.webp",
+    "Portogallo": {
+        "name": "Portogallo",
+        "flag": "pt.webp",
         "players": [
             {
-                "name": "Salierno",
-                "nickname": "Alessio",
+                "name": "",
+                "nickname": "Intonti",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Lagreca",
-                "nickname": "Vincenzo",
+                "name": "Michele",
+                "nickname": "Capurso",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Cavone",
-                "nickname": "Claudio",
+                "name": "Massimo",
+                "nickname": "Visceglia",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Carone",
-                "nickname": "Mimmo",
+                "name": "",
+                "nickname": "Palombella",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             }
         ]
     },
-    "Kuwait": {
-        "name": "Kuwait",
-        "flag": "kw.webp",
+    "Serbia": {
+        "name": "Serbia",
+        "flag": "sk.webp",
         "players": [
             {
-                "name": "Buono",
-                "nickname": "Vito",
+                "name": "Antonio",
+                "nickname": "Borracci",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Natalino",
-                "nickname": "Buono",
+                "name": "Antonio",
+                "nickname": "Rosato",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Di Tommaso",
-                "nickname": "Leo",
+                "name": "Rita",
+                "nickname": "Rosato",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Pasquale",
-                "nickname": "Colella",
+                "name": "Daniele",
+                "nickname": "Solombrino",
                 "position": "?",
-                "avatar": "/images/players/unknown.png"
-            }
-        ]
-    },
-    "Papua Nuova Guinea": {
-        "name": "Papua Nuova Guinea",
-        "flag": "pg.webp",
-        "players": [
-            {
-                "name": "Pasquale",
-                "nickname": "Addabbo",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Simone",
-                "nickname": "Nunziante",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Raffaello",
-                "nickname": "Rosini",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Elgio",
-                "nickname": "Malvaso",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            }
-        ]
-    },
-    "Senegal": {
-        "name": "Senegal",
-        "flag": "sn.webp",
-        "players": [
-            {
-                "name": "Raffaele",
-                "nickname": "G.",
-                "position": "SX",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Raffaele",
-                "nickname": "B.",
-                "position": "DX",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Cesare",
-                "nickname": "Sblano",
-                "position": "DX",
                 "avatar": "/images/players/unknown.png"
             }
         ]
@@ -580,116 +292,50 @@
         "flag": "es.webp",
         "players": [
             {
-                "name": "Tassielli",
-                "nickname": "Costantino",
-                "position": "?",
-                "avatar": "/images/players/spagna/tasselli.png"
-            },
-            {
-                "name": "Mariani",
-                "nickname": "Nicolò",
-                "position": "?",
-                "avatar": "/images/players/spagna/mariani.png"
-            },
-            {
-                "name": "Domenico",
-                "nickname": "Ferri",
+                "name": "Mimmo",
+                "nickname": "Cucumazzo",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Carbone",
-                "nickname": "Lorenzo",
+                "name": "Paky",
+                "nickname": "Di Fronzo",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "Leo",
+                "nickname": "Di Tommaso",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "Michele",
+                "nickname": "Martinadonna",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             }
         ]
     },
-    "Tagikistan": {
-        "name": "Tagikistan",
-        "flag": "tj.webp",
+    "Thailandia": {
+        "name": "Thailandia",
+        "flag": "th.webp",
         "players": [
             {
-                "name": "Colangiulo",
-                "nickname": "Giuseppe",
+                "name": "Marco",
+                "nickname": "Boraccesi",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Dargenio",
-                "nickname": "Carlo",
+                "name": "Antonio",
+                "nickname": "Sassanelli",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Lorusso",
-                "nickname": "Valerio",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Lippolis",
-                "nickname": "Damiano",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            }
-        ]
-    },
-    "Uzbekistan": {
-        "name": "Uzbekistan",
-        "flag": "uz.webp",
-        "players": [
-            {
-                "name": "De Nicolò",
-                "nickname": "Miki",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Lorenzo",
-                "nickname": "Vicenti",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Laddomada",
-                "nickname": "Paolo",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Vincenzo",
-                "nickname": "Duraccio",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            }
-        ]
-    },
-    "Venezuela": {
-        "name": "Venezuela",
-        "flag": "ve.webp",
-        "players": [
-            {
-                "name": "Sequera",
-                "nickname": "Carlos",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Domenico",
-                "nickname": "Schirone",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Facchini",
-                "nickname": "Antonio",
-                "position": "?",
-                "avatar": "/images/players/unknown.png"
-            },
-            {
-                "name": "Domenico",
-                "nickname": "Carmineo",
+                "name": "Alfredo",
+                "nickname": "Franco",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             }
