@@ -48,8 +48,8 @@
                             "homeFlag": "pt.webp",
                             "awayFlag": "cu.webp",
                             "status": 1,
-                            "homeScore": 3,
-                            "awayScore": 0
+                            "homeScore": 0,
+                            "awayScore": 3
                         },
                         {
                             "time": "12.00",
