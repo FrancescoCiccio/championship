@@ -91,8 +91,8 @@
                             "awayTeam": "Italia",
                             "homeFlag": "cu.webp",
                             "awayFlag": "it.webp",
-                            "status": 0,
-                            "homeScore": 0,
+                            "status": 1,
+                            "homeScore": 3,
                             "awayScore": 0
                         },
                         {
@@ -102,9 +102,9 @@
                             "awayTeam": "Brasile",
                             "homeFlag": "se.webp",
                             "awayFlag": "br.webp",
-                            "status": 0,
-                            "homeScore": 0,
-                            "awayScore": 0
+                            "status": 1,
+                            "homeScore": 1,
+                            "awayScore": 2
                         },
                         {
                             "time": "10.30",
@@ -113,8 +113,8 @@
                             "awayTeam": "Mongolia",
                             "homeFlag": "co.webp",
                             "awayFlag": "mn.webp",
-                            "status": 0,
-                            "homeScore": 0,
+                            "status": 1,
+                            "homeScore": 3,
                             "awayScore": 0
                         },
                         {
@@ -124,9 +124,9 @@
                             "awayTeam": "Thailandia",
                             "homeFlag": "cm.webp",
                             "awayFlag": "th.webp",
-                            "status": 0,
+                            "status": 1,
                             "homeScore": 0,
-                            "awayScore": 0
+                            "awayScore": 3
                         },
                         {
                             "time": "12.00",
@@ -135,9 +135,9 @@
                             "awayTeam": "Giamaica",
                             "homeFlag": "ar.webp",
                             "awayFlag": "jm.webp",
-                            "status": 0,
+                            "status": 1,
                             "homeScore": 0,
-                            "awayScore": 0
+                            "awayScore": 3
                         },
                         {
                             "time": "12.00",
@@ -146,6 +146,160 @@
                             "awayTeam": "Portogallo",
                             "homeFlag": "es.webp",
                             "awayFlag": "pt.webp",
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Terza Giornata",
+            "from": "23-03-2024",
+            "to": "23-03-2024",
+            "daysA": [
+                {
+                    "Sabato 23 Marzo": [
+                        {
+                            "time": "09.00",
+                            "field": "Galan",
+                            "homeTeam": "Giamaica",
+                            "awayTeam": "Congo",
+                            "homeFlag": "jm.webp",
+                            "awayFlag": "co.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "09.00",
+                            "field": "Paquito",
+                            "homeTeam": "Portogallo",
+                            "awayTeam": "Camerun",
+                            "homeFlag": "pt.webp",
+                            "awayFlag": "cm.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Paquito",
+                            "homeTeam": "Italia",
+                            "awayTeam": "Brasile",
+                            "homeFlag": "it.webp",
+                            "awayFlag": "br.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Galan",
+                            "homeTeam": "Thailandia",
+                            "awayTeam": "Argentina",
+                            "homeFlag": "th.webp",
+                            "awayFlag": "ar.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Mongolia",
+                            "awayTeam": "Serbia",
+                            "homeFlag": "mn.webp",
+                            "awayFlag": "sr.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Cuba",
+                            "awayTeam": "Spagna",
+                            "homeFlag": "cu.webp",
+                            "awayFlag": "es.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Quarta Giornata",
+            "from": "30-03-2024",
+            "to": "30-03-2024",
+            "daysA": [
+                {
+                    "Sabato 30 Marzo": [
+                        {
+                            "time": "09.00",
+                            "field": "Galan",
+                            "homeTeam": "Serbia",
+                            "awayTeam": "Giamaica",
+                            "homeFlag": "se.webp",
+                            "awayFlag": "jm.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "09.00",
+                            "field": "Paquito",
+                            "homeTeam": "Argentina",
+                            "awayTeam": "Portogallo",
+                            "homeFlag": "ar.webp",
+                            "awayFlag": "pt.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Paquito",
+                            "homeTeam": "Camerun",
+                            "awayTeam": "Cuba",
+                            "homeFlag": "cm.webp",
+                            "awayFlag": "cu.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Galan",
+                            "homeTeam": "Congo",
+                            "awayTeam": "Thailandia",
+                            "homeFlag": "co.webp",
+                            "awayFlag": "th.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Spagna",
+                            "awayTeam": "Italia",
+                            "homeFlag": "es.webp",
+                            "awayFlag": "it.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Paquito",
+                            "homeTeam": "Brasile",
+                            "awayTeam": "Mongolia",
+                            "homeFlag": "cu.webp",
+                            "awayFlag": "es.webp",
                             "status": 0,
                             "homeScore": 0,
                             "awayScore": 0
