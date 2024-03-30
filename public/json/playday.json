@@ -245,9 +245,9 @@
                             "awayTeam": "Giamaica",
                             "homeFlag": "se.webp",
                             "awayFlag": "jm.webp",
-                            "status": 0,
+                            "status": 1,
                             "homeScore": 0,
-                            "awayScore": 0
+                            "awayScore": 3
                         },
                         {
                             "time": "09.00",
@@ -267,9 +267,9 @@
                             "awayTeam": "Cuba",
                             "homeFlag": "cm.webp",
                             "awayFlag": "cu.webp",
-                            "status": 0,
+                            "status": 1,
                             "homeScore": 0,
-                            "awayScore": 0
+                            "awayScore": 3
                         },
                         {
                             "time": "10.30",
@@ -289,9 +289,9 @@
                             "awayTeam": "Italia",
                             "homeFlag": "es.webp",
                             "awayFlag": "it.webp",
-                            "status": 0,
+                            "status": 1,
                             "homeScore": 0,
-                            "awayScore": 0
+                            "awayScore": 3
                         },
                         {
                             "time": "12.00",
@@ -299,6 +299,160 @@
                             "homeTeam": "Brasile",
                             "awayTeam": "Mongolia",
                             "homeFlag": "cu.webp",
+                            "awayFlag": "es.webp",
+                            "status": 1,
+                            "homeScore": 3,
+                            "awayScore": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Quinta Giornata",
+            "from": "6-04-2024",
+            "to": "6-04-2024",
+            "daysA": [
+                {
+                    "Sabato 6 Aprile": [
+                        {
+                            "time": "09.00",
+                            "field": "Galan",
+                            "homeTeam": "Brasile",
+                            "awayTeam": "Giamaica",
+                            "homeFlag": "br.webp",
+                            "awayFlag": "jm.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "09.00",
+                            "field": "Paquito",
+                            "homeTeam": "Congo",
+                            "awayTeam": "Portogallo",
+                            "homeFlag": "co.webp",
+                            "awayFlag": "pt.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Paquito",
+                            "homeTeam": "Argentina",
+                            "awayTeam": "Cuba",
+                            "homeFlag": "ar.webp",
+                            "awayFlag": "cu.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Galan",
+                            "homeTeam": "Spagna",
+                            "awayTeam": "Camerun",
+                            "homeFlag": "es.webp",
+                            "awayFlag": "cm.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Mongolia",
+                            "awayTeam": "Italia",
+                            "homeFlag": "mo.webp",
+                            "awayFlag": "it.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Paquito",
+                            "homeTeam": "Thailandia",
+                            "awayTeam": "Serbia",
+                            "homeFlag": "th.webp",
+                            "awayFlag": "sr.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sesta Giornata",
+            "from": "13-04-2024",
+            "to": "13-04-2024",
+            "daysA": [
+                {
+                    "Sabato 13 Aprile": [
+                        {
+                            "time": "09.00",
+                            "field": "Galan",
+                            "homeTeam": "Brasile",
+                            "awayTeam": "Thailandia",
+                            "homeFlag": "br.webp",
+                            "awayFlag": "th.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "09.00",
+                            "field": "Paquito",
+                            "homeTeam": "Serbia",
+                            "awayTeam": "Portogallo",
+                            "homeFlag": "sr.webp",
+                            "awayFlag": "pt.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Galan",
+                            "homeTeam": "Congo",
+                            "awayTeam": "Cuba",
+                            "homeFlag": "co.webp",
+                            "awayFlag": "cu.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Paquito",
+                            "homeTeam": "Camerun",
+                            "awayTeam": "Italia",
+                            "homeFlag": "cm.webp",
+                            "awayFlag": "it.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Mongolia",
+                            "awayTeam": "Giamaica",
+                            "homeFlag": "mo.webp",
+                            "awayFlag": "jm.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Paquito",
+                            "homeTeam": "Argentina",
+                            "awayTeam": "Spagna",
+                            "homeFlag": "ar.webp",
                             "awayFlag": "es.webp",
                             "status": 0,
                             "homeScore": 0,
