@@ -256,8 +256,8 @@
                             "awayTeam": "Portogallo",
                             "homeFlag": "ar.webp",
                             "awayFlag": "pt.webp",
-                            "status": 0,
-                            "homeScore": 0,
+                            "status": 1,
+                            "homeScore": 3,
                             "awayScore": 0
                         },
                         {
@@ -278,9 +278,9 @@
                             "awayTeam": "Thailandia",
                             "homeFlag": "co.webp",
                             "awayFlag": "th.webp",
-                            "status": 0,
+                            "status": 1,
                             "homeScore": 0,
-                            "awayScore": 0
+                            "awayScore": 3
                         },
                         {
                             "time": "12.00",
