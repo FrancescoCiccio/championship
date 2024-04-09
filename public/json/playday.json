@@ -322,9 +322,9 @@
                             "awayTeam": "Giamaica",
                             "homeFlag": "br.webp",
                             "awayFlag": "jm.webp",
-                            "status": 0,
+                            "status": 1,
                             "homeScore": 0,
-                            "awayScore": 0
+                            "awayScore": 3
                         },
                         {
                             "time": "09.00",
@@ -333,8 +333,8 @@
                             "awayTeam": "Portogallo",
                             "homeFlag": "co.webp",
                             "awayFlag": "pt.webp",
-                            "status": 0,
-                            "homeScore": 0,
+                            "status": 1,
+                            "homeScore": 3,
                             "awayScore": 0
                         },
                         {
@@ -355,9 +355,9 @@
                             "awayTeam": "Camerun",
                             "homeFlag": "es.webp",
                             "awayFlag": "cm.webp",
-                            "status": 0,
-                            "homeScore": 0,
-                            "awayScore": 0
+                            "status": 1,
+                            "homeScore": 1,
+                            "awayScore": 2
                         },
                         {
                             "time": "12.00",
@@ -366,9 +366,9 @@
                             "awayTeam": "Italia",
                             "homeFlag": "mo.webp",
                             "awayFlag": "it.webp",
-                            "status": 0,
+                            "status": 1,
                             "homeScore": 0,
-                            "awayScore": 0
+                            "awayScore": 3
                         },
                         {
                             "time": "12.00",
@@ -377,8 +377,8 @@
                             "awayTeam": "Serbia",
                             "homeFlag": "th.webp",
                             "awayFlag": "sr.webp",
-                            "status": 0,
-                            "homeScore": 0,
+                            "status": 1,
+                            "homeScore": 3,
                             "awayScore": 0
                         }
                     ]
