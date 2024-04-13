@@ -344,8 +344,8 @@
                             "awayTeam": "Cuba",
                             "homeFlag": "ar.webp",
                             "awayFlag": "cu.webp",
-                            "status": 0,
-                            "homeScore": 0,
+                            "status": 1,
+                            "homeScore": 3,
                             "awayScore": 0
                         },
                         {
@@ -399,9 +399,9 @@
                             "awayTeam": "Thailandia",
                             "homeFlag": "br.webp",
                             "awayFlag": "th.webp",
-                            "status": 0,
+                            "status": 1,
                             "homeScore": 0,
-                            "awayScore": 0
+                            "awayScore": 3
                         },
                         {
                             "time": "09.00",
@@ -410,8 +410,8 @@
                             "awayTeam": "Portogallo",
                             "homeFlag": "sr.webp",
                             "awayFlag": "pt.webp",
-                            "status": 0,
-                            "homeScore": 0,
+                            "status": 1,
+                            "homeScore": 3,
                             "awayScore": 0
                         },
                         {
@@ -421,9 +421,9 @@
                             "awayTeam": "Cuba",
                             "homeFlag": "co.webp",
                             "awayFlag": "cu.webp",
-                            "status": 0,
+                            "status": 1,
                             "homeScore": 0,
-                            "awayScore": 0
+                            "awayScore": 3
                         },
                         {
                             "time": "10.30",
@@ -432,9 +432,9 @@
                             "awayTeam": "Italia",
                             "homeFlag": "cm.webp",
                             "awayFlag": "it.webp",
-                            "status": 0,
-                            "homeScore": 0,
-                            "awayScore": 0
+                            "status": 1,
+                            "homeScore": 1,
+                            "awayScore": 2
                         },
                         {
                             "time": "12.00",
@@ -453,6 +453,83 @@
                             "homeTeam": "Argentina",
                             "awayTeam": "Spagna",
                             "homeFlag": "ar.webp",
+                            "awayFlag": "es.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Settima Giornata",
+            "from": "20-04-2024",
+            "to": "20-04-2024",
+            "daysA": [
+                {
+                    "Sabato 20 Aprile": [
+                        {
+                            "time": "09.00",
+                            "field": "Galan",
+                            "homeTeam": "Brasile",
+                            "awayTeam": "Portogallo",
+                            "homeFlag": "br.webp",
+                            "awayFlag": "pr.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "09.00",
+                            "field": "Lebron",
+                            "homeTeam": "Camerun",
+                            "awayTeam": "Argentina",
+                            "homeFlag": "cm.webp",
+                            "awayFlag": "ar.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Galan",
+                            "homeTeam": "Italia",
+                            "awayTeam": "Giamaica",
+                            "homeFlag": "it.webp",
+                            "awayFlag": "jm.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Lebron",
+                            "homeTeam": "Thailandia",
+                            "awayTeam": "Mongolia",
+                            "homeFlag": "th.webp",
+                            "awayFlag": "mn.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Cuba",
+                            "awayTeam": "Serbia",
+                            "homeFlag": "cu.webp",
+                            "awayFlag": "sr.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Lebron",
+                            "homeTeam": "Congo",
+                            "awayTeam": "Spagna",
+                            "homeFlag": "co.webp",
                             "awayFlag": "es.webp",
                             "status": 0,
                             "homeScore": 0,
