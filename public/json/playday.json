@@ -454,8 +454,8 @@
                             "awayTeam": "Spagna",
                             "homeFlag": "ar.webp",
                             "awayFlag": "es.webp",
-                            "status": 0,
-                            "homeScore": 0,
+                            "status": 1,
+                            "homeScore": 3,
                             "awayScore": 0
                         }
                     ]
