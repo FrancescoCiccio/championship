@@ -455,8 +455,8 @@
                             "homeFlag": "ar.webp",
                             "awayFlag": "es.webp",
                             "status": 1,
-                            "homeScore": 3,
-                            "awayScore": 0
+                            "homeScore": 0,
+                            "awayScore": 3
                         }
                     ]
                 }
