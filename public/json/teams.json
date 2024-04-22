@@ -40,8 +40,8 @@
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Giacinto",
-                "nickname": "Carvutto",
+                "name": "Michele",
+                "nickname": "Attolino",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
@@ -194,6 +194,12 @@
                 "nickname": "Nitti",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
+            },
+            {
+                "name": "Vincenzo",
+                "nickname": "Zaltini",
+                "position": "?",
+                "avatar": "/images/players/unknown.png"
             }
         ]
     },
@@ -208,8 +214,8 @@
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Francesco",
-                "nickname": "Lagreca",
+                "name": "Fabrizio",
+                "nickname": "Cippone",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
@@ -232,8 +238,8 @@
         "flag": "pt.webp",
         "players": [
             {
-                "name": "",
-                "nickname": "Intonti",
+                "name": "Giacinto",
+                "nickname": "Racano",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },
@@ -304,8 +310,8 @@
                 "avatar": "/images/players/unknown.png"
             },
             {
-                "name": "Leo",
-                "nickname": "Di Tommaso",
+                "name": "Nico",
+                "nickname": "Gatti",
                 "position": "?",
                 "avatar": "/images/players/unknown.png"
             },

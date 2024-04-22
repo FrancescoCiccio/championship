@@ -538,6 +538,83 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Ottava Giornata",
+            "from": "27-04-2024",
+            "to": "27-04-2024",
+            "daysA": [
+                {
+                    "Sabato 27 Aprile": [
+                        {
+                            "time": "09.00",
+                            "field": "Lebron",
+                            "homeTeam": "Mongolia",
+                            "awayTeam": "Portogallo",
+                            "homeFlag": "mn.webp",
+                            "awayFlag": "pr.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "XX.XX",
+                            "field": "XXXXX",
+                            "homeTeam": "Serbia",
+                            "awayTeam": "Spagna",
+                            "homeFlag": "sr.webp",
+                            "awayFlag": "es.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Lebron",
+                            "homeTeam": "Congo",
+                            "awayTeam": "Camerun",
+                            "homeFlag": "co.webp",
+                            "awayFlag": "cm.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Galan",
+                            "homeTeam": "Brasile",
+                            "awayTeam": "Cuba",
+                            "homeFlag": "br.webp",
+                            "awayFlag": "cu.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Lebron",
+                            "homeTeam": "Argentina",
+                            "awayTeam": "Italia",
+                            "homeFlag": "ar.webp",
+                            "awayFlag": "it.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Giamaica",
+                            "awayTeam": "Thailandia",
+                            "homeFlag": "jm.webp",
+                            "awayFlag": "th.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
