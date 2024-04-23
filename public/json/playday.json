@@ -520,8 +520,8 @@
                             "awayTeam": "Serbia",
                             "homeFlag": "cu.webp",
                             "awayFlag": "sr.webp",
-                            "status": 0,
-                            "homeScore": 0,
+                            "status": 1,
+                            "homeScore": 3,
                             "awayScore": 0
                         },
                         {
@@ -607,6 +607,83 @@
                             "homeTeam": "Giamaica",
                             "awayTeam": "Thailandia",
                             "homeFlag": "jm.webp",
+                            "awayFlag": "th.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nona Giornata",
+            "from": "04-05-2024",
+            "to": "04-05-2024",
+            "daysA": [
+                {
+                    "Sabato 04 Maggio": [
+                        {
+                            "time": "09.00",
+                            "field": "Lebron",
+                            "homeTeam": "Giamaica",
+                            "awayTeam": "Portogallo",
+                            "homeFlag": "jm.webp",
+                            "awayFlag": "pr.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "09.00",
+                            "field": "Galan",
+                            "homeTeam": "Camerun",
+                            "awayTeam": "Serbia",
+                            "homeFlag": "cm.webp",
+                            "awayFlag": "sr.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Lebron",
+                            "homeTeam": "Cuba",
+                            "awayTeam": "Mongolia",
+                            "homeFlag": "cu.webp",
+                            "awayFlag": "mn.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Galan",
+                            "homeTeam": "Argentina",
+                            "awayTeam": "Congo",
+                            "homeFlag": "ar.webp",
+                            "awayFlag": "co.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Lebron",
+                            "homeTeam": "Spagna",
+                            "awayTeam": "Brasile",
+                            "homeFlag": "es.webp",
+                            "awayFlag": "br.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Italia",
+                            "awayTeam": "Thailandia",
+                            "homeFlag": "it.webp",
                             "awayFlag": "th.webp",
                             "status": 0,
                             "homeScore": 0,
