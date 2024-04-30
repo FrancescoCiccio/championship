@@ -553,8 +553,8 @@
                             "awayTeam": "Portogallo",
                             "homeFlag": "mn.webp",
                             "awayFlag": "pr.webp",
-                            "status": 0,
-                            "homeScore": 0,
+                            "status": 1,
+                            "homeScore": 3,
                             "awayScore": 0
                         },
                         {
@@ -564,9 +564,9 @@
                             "awayTeam": "Spagna",
                             "homeFlag": "sr.webp",
                             "awayFlag": "es.webp",
-                            "status": 0,
+                            "status": 1,
                             "homeScore": 0,
-                            "awayScore": 0
+                            "awayScore": 3
                         },
                         {
                             "time": "10.30",
@@ -586,9 +586,9 @@
                             "awayTeam": "Cuba",
                             "homeFlag": "br.webp",
                             "awayFlag": "cu.webp",
-                            "status": 0,
+                            "status": 1,
                             "homeScore": 0,
-                            "awayScore": 0
+                            "awayScore": 3
                         },
                         {
                             "time": "12.00",
@@ -597,9 +597,9 @@
                             "awayTeam": "Italia",
                             "homeFlag": "ar.webp",
                             "awayFlag": "it.webp",
-                            "status": 0,
+                            "status": 1,
                             "homeScore": 0,
-                            "awayScore": 0
+                            "awayScore": 3
                         },
                         {
                             "time": "12.00",
@@ -608,9 +608,9 @@
                             "awayTeam": "Thailandia",
                             "homeFlag": "jm.webp",
                             "awayFlag": "th.webp",
-                            "status": 0,
+                            "status": 1,
                             "homeScore": 0,
-                            "awayScore": 0
+                            "awayScore": 3
                         }
                     ]
                 }
@@ -630,8 +630,8 @@
                             "awayTeam": "Portogallo",
                             "homeFlag": "jm.webp",
                             "awayFlag": "pr.webp",
-                            "status": 0,
-                            "homeScore": 0,
+                            "status": 1,
+                            "homeScore": 3,
                             "awayScore": 0
                         },
                         {
