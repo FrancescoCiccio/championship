@@ -692,6 +692,160 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Decima Giornata",
+            "from": "04-05-2024",
+            "to": "04-05-2024",
+            "daysA": [
+                {
+                    "Sabato 11 Maggio": [
+                        {
+                            "time": "09.00",
+                            "field": "Paquito",
+                            "homeTeam": "Serbia",
+                            "awayTeam": "Argentina",
+                            "homeFlag": "se.webp",
+                            "awayFlag": "ar.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "09.00",
+                            "field": "Galan",
+                            "homeTeam": "Thailandia",
+                            "awayTeam": "Portogallo",
+                            "homeFlag": "th.webp",
+                            "awayFlag": "pr.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Paquito",
+                            "homeTeam": "Brasile",
+                            "awayTeam": "Camerun",
+                            "homeFlag": "br.webp",
+                            "awayFlag": "cm.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Galan",
+                            "homeTeam": "Giamaica",
+                            "awayTeam": "Cuba",
+                            "homeFlag": "jm.webp",
+                            "awayFlag": "cu.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Paquito",
+                            "homeTeam": "Congo",
+                            "awayTeam": "Italia",
+                            "homeFlag": "co.webp",
+                            "awayFlag": "it.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Mongolia",
+                            "awayTeam": "Spagna",
+                            "homeFlag": "mn.webp",
+                            "awayFlag": "es.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Undicesima Giornata",
+            "from": "04-05-2024",
+            "to": "04-05-2024",
+            "daysA": [
+                {
+                    "Sabato 18 Maggio": [
+                        {
+                            "time": "09.00",
+                            "field": "Paquito",
+                            "homeTeam": "Italia",
+                            "awayTeam": "Portogallo",
+                            "homeFlag": "it.webp",
+                            "awayFlag": "pr.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "09.00",
+                            "field": "Galan",
+                            "homeTeam": "Argentina",
+                            "awayTeam": "Brasile",
+                            "homeFlag": "ar.webp",
+                            "awayFlag": "br.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Paquito",
+                            "homeTeam": "Cuba",
+                            "awayTeam": "Thailandia",
+                            "homeFlag": "cu.webp",
+                            "awayFlag": "th.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "10.30",
+                            "field": "Galan",
+                            "homeTeam": "Camerun",
+                            "awayTeam": "Mongolia",
+                            "homeFlag": "cm.webp",
+                            "awayFlag": "mn.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Paquito",
+                            "homeTeam": "Spagna",
+                            "awayTeam": "Giamaica",
+                            "homeFlag": "es.webp",
+                            "awayFlag": "jm.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        },
+                        {
+                            "time": "12.00",
+                            "field": "Galan",
+                            "homeTeam": "Congo",
+                            "awayTeam": "Serbia",
+                            "homeFlag": "co.webp",
+                            "awayFlag": "se.webp",
+                            "status": 0,
+                            "homeScore": 0,
+                            "awayScore": 0
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
