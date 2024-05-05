@@ -575,9 +575,9 @@
                             "awayTeam": "Camerun",
                             "homeFlag": "co.webp",
                             "awayFlag": "cm.webp",
-                            "status": 0,
-                            "homeScore": 0,
-                            "awayScore": 0
+                            "status": 1,
+                            "homeScore": 2,
+                            "awayScore": 1
                         },
                         {
                             "time": "10.30",
@@ -652,8 +652,8 @@
                             "awayTeam": "Mongolia",
                             "homeFlag": "cu.webp",
                             "awayFlag": "mn.webp",
-                            "status": 0,
-                            "homeScore": 0,
+                            "status": 1,
+                            "homeScore": 3,
                             "awayScore": 0
                         },
                         {
@@ -663,9 +663,9 @@
                             "awayTeam": "Congo",
                             "homeFlag": "ar.webp",
                             "awayFlag": "co.webp",
-                            "status": 0,
+                            "status": 1,
                             "homeScore": 0,
-                            "awayScore": 0
+                            "awayScore": 3
                         },
                         {
                             "time": "12.00",
@@ -674,9 +674,9 @@
                             "awayTeam": "Brasile",
                             "homeFlag": "es.webp",
                             "awayFlag": "br.webp",
-                            "status": 0,
-                            "homeScore": 0,
-                            "awayScore": 0
+                            "status": 1,
+                            "homeScore": 1,
+                            "awayScore": 2
                         },
                         {
                             "time": "12.00",
@@ -685,9 +685,9 @@
                             "awayTeam": "Thailandia",
                             "homeFlag": "it.webp",
                             "awayFlag": "th.webp",
-                            "status": 0,
+                            "status": 1,
                             "homeScore": 0,
-                            "awayScore": 0
+                            "awayScore": 3
                         }
                     ]
                 }
