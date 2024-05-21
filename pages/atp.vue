@@ -5,7 +5,7 @@
                 ADELFIA PADEL TOUR
             </h3>
             <h1>
-                ATP - Footballite
+                APT - Footballite
             </h1>
         </div>
     </section>
