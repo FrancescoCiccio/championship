@@ -51,7 +51,6 @@
 import { onMounted, onUnmounted, ref } from 'vue';
 import ranksA from '@/public/json/rankingA.json'
 import ranksB from '@/public/json/rankingB.json'
-import axios from 'axios';
 
 
 let rankingA = ref([]);

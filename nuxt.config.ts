@@ -10,4 +10,7 @@ export default defineNuxtConfig({
   build: {
     transpile: ['gsap'],
   },
+  plugins: [
+    '~/plugins/firebase.client.js'
+  ]
 })
