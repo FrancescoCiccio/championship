@@ -103,7 +103,9 @@ onMounted(async () => {
       }
     }))
     
-    documents.value = allDocuments
+
+    // Ordina i documenti principali per priority in ordine discendente
+    documents.value = allDocuments.sort((a, b) => b.priority - a.priority)
     currentPlayday.value = documents.value[0]
   } catch (error) {
     console.error("Error getting documents: ", error)

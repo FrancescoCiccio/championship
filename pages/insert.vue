@@ -19,15 +19,15 @@
       when: "?",
       field: "?",
       played: false,
-      name: "T3-8",
+      name: "QUARTO-4",
       home_s: 0,
-      home: "Sasanelli - Tripolini",
+      home: "Schirone - Lamanna",
       away_s: 0,
-      away: "Vincente T2-8"
+      away: "Da sorteggiare"
     }
   
     try {
-     /*  const partiteCollection = collection($firestore, 'partite/turno3/partite')
+      /* const partiteCollection = collection($firestore, 'partite/quarti/partite')
       await addDoc(partiteCollection, newMatch)
       console.log('Partita inserita con successo') */
     } catch (error) {
