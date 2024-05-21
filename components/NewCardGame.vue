@@ -1,7 +1,7 @@
 <template>
     <div class="p-2 rounded-lg bg-[#277379] flex flex-col w-full gap-y-4">
         <div class="w-full p-2 px-4 bg-primary rounded-md flex items-center justify-center uppercase">
-            <span v-text="formatTimestamp(match?.data.when)"></span>
+            <span v-text="match?.data.when"></span>
         </div>
         <div class="flex items-center gap-2">
             <div class="flex flex-col">

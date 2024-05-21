@@ -55,9 +55,9 @@
         </HeadlessMenu> 
     </div>
 
-    <div class="my-4 px-4 container mx-auto place-content-center items-center justify-center justify-items-center" v-if="currentPlayday != null">
+    <div class="my-4 px-4 container mx-auto  w-full gap-y-4" v-if="currentPlayday != null">
 
-        <div class="cardgame my-2 lg:my-8 self-center max-w-2xl mx-auto">
+        <div class="cardgame my-2 lg:my-8 self-center max-w-2xl mx-auto flex flex-col gap-y-4">
             <NewCardGame v-for="game in currentPlayday.partite" :key="game.data.home + game.data.away" :match="game"></NewCardGame>
         </div>
 
@@ -93,7 +93,7 @@ onMounted(async () => {
       const partite = partiteSnapshot.docs.map((partitaDoc) => ({
         id: partitaDoc.id,
         data: partitaDoc.data()
-      }))
+      })).sort((a, b) => a.data.name.localeCompare(b.data.name)) 
       
       return {
         id: docSnapshot.id,
@@ -109,5 +109,7 @@ onMounted(async () => {
     console.error("Error getting documents: ", error)
   }
 })
-
 </script>
+
+
+
