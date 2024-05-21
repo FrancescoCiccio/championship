@@ -4,11 +4,11 @@
             <span v-text="match?.data.when"></span>
         </div>
         <div class="flex items-center gap-2">
-            <div class="flex flex-col">
+            <div class="flex flex-col gap-y-2">
                 <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md relative z-10">
                     <span v-text="match?.data.field"></span>
                 </div>
-                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md -translate-y-4 relative">
+                <div class="flex flex-col p-2 px-4 bg-[#B5B2BF] rounded-md  relative">
                     <span class="text-primary" v-text="match?.data.name"></span>
                 </div>
             </div>
