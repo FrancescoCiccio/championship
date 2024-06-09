@@ -12,7 +12,6 @@
 
     <div class="mt-4 lg:container px-4 mx-auto" v-if="player">
         <div class="flex flex-col-reverse lg:flex-row gap-y-2 gap-x-4 justify-between items-center">
-
             <div class="flex flex-col">
                 <div class="flex gap-x-2">
                     <span class="text-secondary">Nome:</span>
@@ -22,10 +21,27 @@
                     <span class="text-secondary">Punti APT:</span>
                     <span v-text="player.rank"></span>
                 </div>
+                <div class="flex gap-x-2" v-if="player.position">
+                    <span class="text-secondary">Posizione:</span>
+                    <span v-text="player.position"></span>
+                </div>
+                <div class="flex flex-col gap-2 p-2 border border-secondary rounded-md mt-8" v-if="player.storia">
+                    <span class="text-secondary">Storia punti ottenuti:</span>
+
+                    <div class="flex gap-2" v-for="(punti, index) in player.storia" :key="index + 'history' + player.name">
+                        
+                        <span v-text="punti.torneo"></span>
+                        <span v-text="punti.posizione"></span>
+                        <span v-text="punti.punti + ' punti'"></span>
+
+
+
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <img :src="player.avatar" class="max-h-[300px] rounded-full border-2 border-secondary aspect-square object-cover" alt="">
+            <div v-if="player.avatar" class="mb-8">
+                <img :src="player.avatar" class="max-h-[300px] border-2 border-secondary aspect-square object-cover" alt="">
             </div>
 
         </div>
