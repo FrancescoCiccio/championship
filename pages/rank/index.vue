@@ -18,7 +18,7 @@
             <h2 class="text-2xl" v-text="index + 1"></h2>
             <div class="flex justify-between items-center">
                 <NuxtLink :to="'/rank/player/' + player.name">
-                    <h1 v-text="player.name"></h1>
+                    <h1 class="text-2xl lg:text-4xl" v-text="player.name"></h1>
                 </NuxtLink>
 
                 <div class="flex gap-x-4">
