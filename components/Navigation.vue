@@ -15,12 +15,6 @@
                 <li>
                     <NuxtLink class="text-5xl" to="/" @click="toggleMenu">Home</NuxtLink>
                 </li>
-                <li>
-                    <NuxtLink class="text-5xl" to="/teams" @click="toggleMenu">Squadre</NuxtLink>
-                </li>
-                <li>
-                    <NuxtLink class="text-5xl" to="/ranking" @click="toggleMenu">Classifica</NuxtLink>
-                </li>
 
                 <li>
                     <NuxtLink class="text-5xl" to="/bestof" @click="toggleMenu">Best Of Villa Paola Mundialito</NuxtLink>
