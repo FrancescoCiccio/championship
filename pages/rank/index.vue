@@ -22,7 +22,7 @@
         />
 
         <div v-for="(player, index) in filteredPlayers" :key="index + player.name" class="flex flex-col p-4 border-2 border-secondary rounded-md">
-            <h2 class="text-2xl" v-text="index + 1"></h2>
+            <h2 class="text-2xl" v-text="player.posizione"></h2>
             <div class="flex justify-between items-center">
                 <NuxtLink :to="'/rank/player/' + player.name">
                     <h1 class="text-2xl lg:text-4xl" v-text="player.name"></h1>
@@ -57,14 +57,22 @@ onMounted(async () => {
         const playersCollection = collection($firestore, 'players')
         const playersSnapshot = await getDocs(playersCollection)
 
-        playersSnapshot.docs.map(player => {
-            players.value.push({
-                name: player.id,
-                rank: player.data().rank
-            })
+        // Recupera i dati dei giocatori
+        const loadedPlayers = playersSnapshot.docs.map(player => ({
+            name: player.id,
+            rank: player.data().rank
+        }))
+
+        // Ordina i giocatori per punteggio
+        loadedPlayers.sort((a, b) => b.rank - a.rank)
+
+        // Assegna l'indice originale
+        loadedPlayers.forEach((player, index) => {
+            player.posizione = index + 1;
         })
 
-        players.value.sort((a, b) => b.rank - a.rank)
+        players.value = loadedPlayers
+    
     } catch (error) {
         console.log('error: ', error);
     }
