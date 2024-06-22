@@ -14,7 +14,14 @@
 
     <div class="lg:max-w-2xl mx-auto mt-20 flex flex-col gap-y-4">
 
-        <div v-for="(player, index) in players" :key="index + player.name" class="flex flex-col p-4 border-2 border-secondary rounded-md">
+        <input 
+            type="text" 
+            v-model="searchQuery" 
+            placeholder="Cerca giocatore" 
+            class="p-2 border-2 border-secondary rounded-md mb-4 text-primary"
+        />
+
+        <div v-for="(player, index) in filteredPlayers" :key="index + player.name" class="flex flex-col p-4 border-2 border-secondary rounded-md">
             <h2 class="text-2xl" v-text="index + 1"></h2>
             <div class="flex justify-between items-center">
                 <NuxtLink :to="'/rank/player/' + player.name">
@@ -34,7 +41,7 @@
 
 <script setup>
 
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 import { useNuxtApp } from '#app'
 import { collection, getDocs, doc } from 'firebase/firestore'
 
@@ -42,6 +49,8 @@ import { collection, getDocs, doc } from 'firebase/firestore'
 const { $firestore } = useNuxtApp()
 
 const players = ref([])
+const searchQuery = ref('')
+
 
 onMounted(async () => {
     try {
@@ -59,6 +68,12 @@ onMounted(async () => {
     } catch (error) {
         console.log('error: ', error);
     }
+})
+
+const filteredPlayers = computed(() => {
+    return players.value.filter(player => 
+        player.name.toLowerCase().includes(searchQuery.value.toLowerCase())
+    )
 })
 </script>
 

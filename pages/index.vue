@@ -1,14 +1,11 @@
 <template>
-
-
-
     <section class="h-[40vh] rounded-b-2xl border-b-2 border-solid border-white/10 text-white overflow-hidden mask flex items-end p-4">
-        <div class="flex flex-col container mx-auto">
+        <div class="flex flex-col lg:container lg:mx-auto">
             <h3>
-                Footballite
+                ADELFIA PADEL TOUR
             </h3>
             <h1>
-                Vivè - Mundialito
+                APT - Footballite
             </h1>
         </div>
     </section>
@@ -22,11 +19,12 @@
                 <HeadlessMenuButton
                   class="btn flex gap-4"
                 >
-                    {{ currentPlayday.name }}
+                    {{ currentPlayday?.nome }}
                     
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.41 8.59L12 13.17L16.59 8.59L18 10L12 16L6 10L7.41 8.59Z" fill="#41BFC9"/>
                     </svg>
+
                 </HeadlessMenuButton>
             </div>
 
@@ -41,27 +39,15 @@
                 <HeadlessMenuItems
                     class="absolute left-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-secondary ring-opacity-5 focus:outline-none z-50 max-h-[200px] overflow-y-scroll"
                 >
-                    <HeadlessMenuItem v-for="playday in playdays" :key="playday.name">
+                    <HeadlessMenuItem v-for="doc in documents" :key="doc.id + '-tabs'">
                         <button
                             :class="[
                            'text-gray-900',
                             'group flex flex-col w-full items-start rounded-md px-2 py-2 text-sm',
                             ]"
-                            @click="changePlayday(playday)"
+                            @click="changePlayday(doc)"
                         >
-                            {{ playday.name }}
-                            <div class="flex text-xs text-slate-400 gap-1">
-                                
-                                <span>
-                                    {{ ' ' +  playday.from + ' ' }} 
-                                </span>
-                                <span>
-                                    -
-                                </span>
-                                <span>
-                                    {{  playday.to  }}
-                                </span>
-                            </div>
+                            {{ doc.nome }}
                         </button>
                     </HeadlessMenuItem>
                 </HeadlessMenuItems>
@@ -69,67 +55,63 @@
         </HeadlessMenu> 
     </div>
 
+    <div class="my-4 px-4 container mx-auto  w-full gap-y-4" v-if="currentPlayday != null">
 
-    <HeadlessTabGroup>
-        <HeadlessTabList class="flex space-x-1 rounded-xl bg-blue-900/20 p-1 mx-4 lg:max-w-lg lg:mx-auto">
-            <HeadlessTab
-                as="template"
-                v-slot="{ selected }"
-            >
-                <button
-                    :class="[
-                    'w-full rounded-lg py-2.5 text-sm font-medium leading-5',
-                    'ring-white ring-opacity-60 ring-offset-2 ring-offset-secondary focus:outline-none focus:ring-2',
-                    selected
-                        ? 'bg-white shadow text-primary'
-                        : 'text-white/50 hover:bg-white/[0.12] hover:text-white',
-                    ]"
-                >
-                    Unico Girone
-                </button>
-            </HeadlessTab>
-        </HeadlessTabList>
+        <div class="cardgame my-2 lg:my-8 self-center max-w-2xl mx-auto flex flex-col gap-y-4">
+            <NewCardGame v-for="game in currentPlayday.partite" :key="game.data.home + game.data.away" :match="game"></NewCardGame>
+        </div>
 
-        <HeadlessTabPanels class="mt-2">
-            <HeadlessTabPanel class="my-4 px-4 container mx-auto lg:px-0 lg:grid lg:grid-cols-3 lg:gap-4">
-                <CardGame v-for="(day, index) in currentPlayday.daysA" :key="'day-' + index" :day="day"></CardGame>
-            </HeadlessTabPanel>
-        </HeadlessTabPanels>
-    </HeadlessTabGroup>
-
-    
-
+    </div>
 </template>
 
 <script setup>
+import { ref, onMounted } from 'vue'
+import { useNuxtApp } from '#app'
+import { collection, getDocs, doc } from 'firebase/firestore'
 
-import { onMounted, onUnmounted, ref } from 'vue';
-import { gsap } from "gsap";
-import { playdays } from "@/public/json/playday.json";
 
+const { $firestore } = useNuxtApp()
 
-const main = ref();
-let ctx;
+const documents = ref([])
+
+var currentPlayday = ref(null);
 
 const changePlayday = (playday) => {
     currentPlayday.value = playday
 }
 
-
-var currentPlayday = ref(playdays[9]);
-
-onMounted(() => {
-  ctx = gsap.context((self) => {
-
-    gsap.from('h3', {
-        opacity: 0,
-        duration: 4
-    })
+onMounted(async () => {
+  try {
+    const mainCollection = collection($firestore, 'partite')
+    const mainDocsSnapshot = await getDocs(mainCollection)
     
-  }, main.value);
-});
+    const allDocuments = await Promise.all(mainDocsSnapshot.docs.map(async (docSnapshot) => {
+      const data = docSnapshot.data()
+      const partiteCollection = collection($firestore, `partite/${docSnapshot.id}/partite`)
+      const partiteSnapshot = await getDocs(partiteCollection)
+      
+      const partite = partiteSnapshot.docs.map((partitaDoc) => ({
+        id: partitaDoc.id,
+        data: partitaDoc.data()
+      })).sort((a, b) => a.data.name.localeCompare(b.data.name)) 
+      
+      return {
+        id: docSnapshot.id,
+        nome: data.nome,
+        priority: data.priority,
+        partite
+      }
+    }))
+    
 
-onUnmounted(() => {
-    ctx.revert(); // <- Easy Cleanup!
+    // Ordina i documenti principali per priority in ordine discendente
+    documents.value = allDocuments.sort((a, b) => b.priority - a.priority)
+    currentPlayday.value = documents.value[0]
+  } catch (error) {
+    console.error("Error getting documents: ", error)
+  }
 })
 </script>
+
+
+

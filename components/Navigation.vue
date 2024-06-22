@@ -17,7 +17,7 @@
                 </li>
 
                 <li>
-                    <NuxtLink class="text-5xl" to="/bestof" @click="toggleMenu">Best Of Villa Paola Mundialito</NuxtLink>
+                    <NuxtLink class="text-5xl" to="/rank" @click="toggleMenu">Rank Footballite</NuxtLink>
                 </li>
             </ul>
 
